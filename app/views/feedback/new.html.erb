@@ -1,0 +1,24 @@
+<h3>Mobile Site Feedback</h3>
+
+<%= form_for @message, :url => { :action => "create" } do |form| %>
+
+
+    <div data-role="fieldcontain">
+        <%= form.label :name %>
+        <%= form.text_field :name, :"data-mini"=>"true", :"data-theme"=>"b" %>
+    </div>
+
+    <div data-role="fieldcontain">
+        <%= form.label :email %>
+        <%= form.text_field :email, :"data-mini"=>"true", :"data-theme"=>"b" %>
+    </div>
+
+
+    <div data-role="fieldcontain">
+        <%= form.label :body %>
+        <%= form.text_area :body, :"data-mini"=>"true", :"data-theme"=>"b" %>
+    </div>
+
+    <%= form.submit "Send" %>
+
+<% end %>

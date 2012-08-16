@@ -1,0 +1,68 @@
+<%= javascript_include_tag "index" %>
+
+<div style='padding-top:20px;'>
+  <form name="searchForm" method="post" action="http://primotest.library.nd.edu/primo_library/libweb/action/search.do?fn=go&ct=search&vid=ndmobile" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="if(window.manualFormSubmit){manualFormSubmit(this.id);return false;}" id="searchForm" target="_self">
+    <input type="search" name="vl(freeText0)" id="search_field" data-mini="true" data-theme="a" title="Search Library Catalog" value="Search Library Catalog" accesskey="s" class="defaultTextActive defaultText" />
+    <input id="goButton" type="hidden" value="Search" class="submit" accesskey="g"/>
+  </form>
+</div>
+
+
+<div class="ui-grid-c" style='padding-top:20px;'>
+
+  <div class="ui-block-a icon">
+    <%= link_to image_tag("ejournals.png", {:class => "icon"}), "http://www.library.nd.edu/eresources/find_journals/ejournals.php" %>
+    <br />
+    <%= link_to "e-Journals", "http://www.library.nd.edu/eresources/find_journals/ejournals.php", :class => "icon" %>
+  </div>
+
+  <div class="ui-block-b icon">
+    <%= link_to image_tag("articles.png", {:class => "icon"}), "http://xerxes.library.nd.edu/quicksearch/" %>
+    <br />
+    <%= link_to "Articles", "http://xerxes.library.nd.edu/quicksearch/", :class => "icon" %>
+  </div>
+
+  <div class="ui-block-c icon">
+    <%= link_to image_tag("atoz.png", {:class => "icon"}), mobiledatabases_path  %>
+    <br />
+    <%= link_to "Mobile Databases", mobiledatabases_path, :class => "icon" %>
+  </div>
+
+  <div class="ui-block-d icon">
+    <%= link_to image_tag("chat.png", {:class => "icon"}), { :action=>"index", :controller=>"asklib" }  %>
+    <br />
+    <%= link_to "Ask a Librarian", { :action=>"index", :controller=>"asklib" }, :class => "icon" %>
+  </div>
+
+
+  <div class="ui-block-a icon">
+    <%= link_to image_tag("imac.png", {:class => "icon"}), computers_path  %>
+    <br />
+    <%= link_to "Computer Finder", computers_path, :class => "icon" %>
+  </div>
+
+  <div class="ui-block-b icon">
+    <%= link_to image_tag("calendar.png", {:class => "icon"}), events_path  %>
+    <br />
+    <%= link_to "Events", events_path, :class => "icon" %>
+  </div>
+
+  <div class="ui-block-c icon">
+
+    <%= link_to image_tag("clock.png", {:class => "icon"}), locations_path  %>
+    <br />
+    <%= link_to "Hours & Locations", locations_path, :class => "icon" %>
+
+  </div>
+
+  <div class="ui-block-d icon">
+    <%= link_to image_tag("nd.png", {:class => "icon"}), "http://m.nd.edu" %>
+    <br />
+    <%= link_to "Mobile ND", "http://m.nd.edu", :class => "icon" %>
+  </div>
+
+</div>
+
+
+
+

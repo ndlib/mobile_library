@@ -85,6 +85,11 @@ div.icon .ui-link {
 	display:inline;
 }
 
+img.branch{
+    max-width: 100%;
+    margin-bottom:15px;
+}
+
 .taupe_bg{
 	background-color:#dcd5b6;
 	height:1px;

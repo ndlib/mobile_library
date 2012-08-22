@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/feedback_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/feedback_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notification_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/notification_mailer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" afterPath="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="feedback_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/feedback_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="194" selection-end="194" vertical-scroll-proportion="0.20757021">
+            <state line="13" column="49" selection-start="366" selection-end="366" vertical-scroll-proportion="0.26984128">
               <folding />
             </state>
           </provider>
@@ -37,7 +37,7 @@
       <file leaf-file-name="feedback_message.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="197" selection-end="197" vertical-scroll-proportion="-7.1923075">
+            <state line="9" column="44" selection-start="213" selection-end="213" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
@@ -140,9 +140,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
         <option value="$PROJECT_DIR$/app/views/feedback/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" />
         <option value="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.text.erb" />
         <option value="$PROJECT_DIR$/app/mailers/notification_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/feedback_controller.rb" />
       </list>
     </option>
@@ -922,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="197" selection-end="197" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/notification_mailer/feedback_message.text.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="8" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
@@ -943,9 +936,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="213" selection-end="213" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/feedback_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="194" selection-end="194" vertical-scroll-proportion="0.20757021">
+        <state line="13" column="49" selection-start="366" selection-end="366" vertical-scroll-proportion="0.26984128">
           <folding />
         </state>
       </provider>

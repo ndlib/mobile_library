@@ -1,4 +1,4 @@
-class NotificationsMailer < ActionMailer::Base
+class NotificationMailer < ActionMailer::Base
   default :from => "noreply@nd.edu"
   default :to => "rmalott@nd.edu"
 

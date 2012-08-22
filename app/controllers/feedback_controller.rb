@@ -8,7 +8,7 @@ class FeedbackController < ApplicationController
     @message = Message.new(params[:message])
 
     if @message.valid?
-      Message.feedback_message(@message).deliver
+      NotificationsMailer.feedback_message(@message).deliver
       redirect_to(root_path, :notice => "Thank you for submitting feedback!")
     else
       flash.now.alert = "Please verify all fields are filled in."

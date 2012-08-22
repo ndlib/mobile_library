@@ -1,6 +1,11 @@
 <%= javascript_include_tag "index" %>
 
+
 <div style='padding-top:20px;'>
+    <% if flash[:notice] %>
+        <%= flash[:notice] %><br /><br />
+    <% end %>
+
   <form name="searchForm" method="post" action="http://primotest.library.nd.edu/primo_library/libweb/action/search.do?fn=go&ct=search&vid=ndmobile" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="if(window.manualFormSubmit){manualFormSubmit(this.id);return false;}" id="searchForm" target="_self">
     <input type="search" name="vl(freeText0)" id="search_field" data-mini="true" data-theme="a" title="Search Library Catalog" value="Search Library Catalog" accesskey="s" class="defaultTextActive defaultText" />
     <input id="goButton" type="hidden" value="Search" class="submit" accesskey="g"/>

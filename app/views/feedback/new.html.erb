@@ -1,8 +1,8 @@
 <h3>Mobile Site Feedback</h3>
-
+<% if flash[:alert] %>
+    <i><%= flash[:alert] %></i>
+<% end %>
 <%= form_for @message, :url => { :action => "create" } do |form| %>
-
-
     <div data-role="fieldcontain">
         <%= form.label :name %>
         <%= form.text_field :name, :"data-mini"=>"true", :"data-theme"=>"b" %>

@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\javascripts\index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mobile.iml" afterPath="$PROJECT_DIR$/.idea/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/feedback_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/feedback_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/message.rb" afterPath="$PROJECT_DIR$/app/models/message.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/computers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/computers/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events/index.html.erb" afterPath="$PROJECT_DIR$/app/views/events/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/feedback/new.html.erb" afterPath="$PROJECT_DIR$/app/views/feedback/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/architecture.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/architecture.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/bic.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/bic.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/kkic.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/kkic.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/radlab.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/vrc.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb" afterPath="$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" afterPath="$PROJECT_DIR$/app/views/notification_mailer/feedback_message.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
-    </list>
+    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="" />
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,6 +31,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="22" selection-start="2494" selection-end="2494" vertical-scroll-proportion="1.3995157">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,69 +53,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="-1.9615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="-3.9230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mathematics.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radlab.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="-2.6153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vrc.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13076924">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kkic.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="52" selection-start="802" selection-end="802" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hesburgh.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="49" selection-start="5435" selection-end="5435" vertical-scroll-proportion="-17.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engineering.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="85" selection-start="268" selection-end="349" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -890,21 +803,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="73" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="61" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
@@ -916,21 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
@@ -956,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="49" selection-start="5435" selection-end="5435" vertical-scroll-proportion="-17.26923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="85" selection-start="268" selection-end="349" vertical-scroll-proportion="-6.5384617">
@@ -972,21 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="802" selection-end="802" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="-2.6153846">
+        <state line="19" column="52" selection-start="802" selection-end="802" vertical-scroll-proportion="0.41410255">
           <folding />
         </state>
       </provider>
@@ -994,6 +862,53 @@
     <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13076924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08575031">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="49" selection-start="5435" selection-end="5435" vertical-scroll-proportion="0.56125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4182042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="25" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="22" selection-start="2494" selection-end="2494" vertical-scroll-proportion="1.3995157">
           <folding />
         </state>
       </provider>

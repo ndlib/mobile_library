@@ -5,7 +5,7 @@
   <ul data-role="listview" data-theme="b" data-divider-theme="b">
     <% @items.each do |item| %>
         <li data-role="list-divider"><%= item['title'] %></li>
-        <li style="margin-left:7px; white-space: normal;"><%= raw item['post'] %></li>
+        <li style="margin-left:7px; white-space: normal; border-style:none;"><%= raw item['post'] %></li>
     <% end %>
   </ul>
   </div>

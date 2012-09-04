@@ -1,4 +1,3 @@
-<%= javascript_include_tag "index" %>
 
 
 <div style='padding-top:20px;'>
@@ -7,7 +6,7 @@
     <% end %>
 
   <form name="searchForm" method="post" action="http://primotest.library.nd.edu/primo_library/libweb/action/search.do?fn=go&ct=search&vid=ndmobile" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="if(window.manualFormSubmit){manualFormSubmit(this.id);return false;}" id="searchForm" target="_self">
-    <input type="search" name="vl(freeText0)" id="search_field" data-mini="true" data-theme="a" title="Search Library Catalog" value="Search Library Catalog" accesskey="s" class="defaultTextActive defaultText" />
+    <input type="search" name="vl(freeText0)" id="search_field" data-mini="true" data-theme="a" title="Search Library Catalog" placeholder="Search Library Catalog" accesskey="s" class="defaultTextActive defaultText" />
     <input id="goButton" type="hidden" value="Search" class="submit" accesskey="g"/>
   </form>
 </div>
@@ -18,7 +17,7 @@
   <div class="ui-block-a icon">
     <%= image_tag("icons/ejournals-cs.png", {:class => "icon"}) %>
     <br />
-    e-Journals
+    <span class="grayText">e-Journals</span>
   </div>
 
   <div class="ui-block-b icon">

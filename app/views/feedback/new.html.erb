@@ -1,22 +1,23 @@
 <h3>Mobile Site Feedback</h3>
-<% if flash[:alert] %>
-    <i><%= flash[:alert] %></i>
-<% end %>
+
 <%= form_for @message, :url => { :action => "create" } do |form| %>
+
+      <% @message.errors.full_messages.each do |msg| %>
+          <div class="field_with_errors"><%= msg %></div>
+      <% end %>
+
+
     <div data-role="fieldcontain">
-        <%= form.label :name %>
-        <%= form.text_field :name, :"data-mini"=>"true", :"data-theme"=>"b" %>
+        <%= form.text_field :name, :"data-mini"=>"true", :"data-theme"=>"b", :"placeholder"=>"Name" %>
     </div>
 
     <div data-role="fieldcontain">
-        <%= form.label :email %>
-        <%= form.text_field :email, :"data-mini"=>"true", :"data-theme"=>"b" %>
+        <%= form.text_field :email, :"data-mini"=>"true", :"data-theme"=>"b", :"placeholder"=>"Email" %>
     </div>
 
 
     <div data-role="fieldcontain">
-        <%= form.label :body %>
-        <%= form.text_area :body, :"data-mini"=>"true", :"data-theme"=>"b" %>
+        <%= form.text_area :body, :"data-mini"=>"true", :"data-theme"=>"b", :"placeholder"=>"Feedback" %>
     </div>
 
     <%= form.submit "Send" %>

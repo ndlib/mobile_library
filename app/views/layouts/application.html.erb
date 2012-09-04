@@ -8,12 +8,13 @@
   <title>Hesburgh Libraries Mobile // University of Notre Dame</title>
 
 
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile.structure-1.1.0.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
   <%= stylesheet_link_tag "mobile" %>
 
   <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
   <%= javascript_include_tag "mobile" %>
+  <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+
 
 
 
@@ -36,7 +37,7 @@
 
   </div>
 
-<div class="taupe_bg">&nbsp;</div>
+  <div class="taupe_bg">&nbsp;</div>
 
 <div data-role="footer" class="ui-bar" data-position="inline">
   <%= image_tag "hesburgh_mark.png", {:class => "hesburgh-mark"} %>&nbsp;&nbsp;<%= link_to "Full Site", "http://www.library.nd.edu", { :class=>"ui-link", "data-role"=>"none" } %>  |  <%= link_to "Feedback", { :action=>"new", :controller=>"feedback" }, { :class=>"ui-link", "data-role"=>"none" } %>

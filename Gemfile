@@ -39,3 +39,4 @@ gem 'jquery-rails'
 
 
 gem 'nokogiri'
+gem "dynamic_form", "~> 1.1.4"

@@ -11,7 +11,13 @@ class FeedbackController < ApplicationController
       NotificationMailer.feedback_message(@message).deliver
       redirect_to(root_path, :notice => "Thank you for your feedback!")
     else
-      flash.now.alert = "Please verify all fields"
+
+      if @message.errors[:email].any?
+        flash.now.alert = "Please ensure email is in proper format"
+      else
+        flash.now.alert = "Feedback is required"
+      end
+
       render :new
     end
   end

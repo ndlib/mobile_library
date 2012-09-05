@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="" />
+    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+    </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="22" selection-start="2494" selection-end="2494" vertical-scroll-proportion="1.3995157">
+            <state line="105" column="71" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="87" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.36125">
               <folding />
             </state>
           </provider>
@@ -43,7 +56,7 @@
       <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="13" selection-start="2244" selection-end="2244" vertical-scroll-proportion="-12.88">
+            <state line="127" column="13" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,7 +65,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="-1.9615384">
+            <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/feedback_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/views/feedback/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/computers/index.html.erb" />
@@ -87,6 +98,8 @@
         <option value="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
+        <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
       </list>
     </option>
   </component>
@@ -122,26 +135,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,164 +180,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobiledatabases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feedback" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="computers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -379,20 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mailers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,16 +277,36 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -691,11 +532,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: mobile" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: mobile" />
-      <item index="4" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="0" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Production: mobile" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Development: mobile" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -733,7 +574,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27191558" sideWeight="0.6701389" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2767857" sideWeight="0.6701389" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.49756494" order="7" side_tool="true" content_ui="tabs" />
@@ -803,102 +644,59 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="90" selection-end="90" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="13" selection-start="2244" selection-end="2244" vertical-scroll-proportion="-12.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="70" selection-start="331" selection-end="331" vertical-scroll-proportion="0.21794872">
-          <folding />
-        </state>
+        <state line="10" column="70" selection-start="331" selection-end="331" vertical-scroll-proportion="0.21794872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="345" selection-end="345" vertical-scroll-proportion="0.21794872">
-          <folding />
-        </state>
+        <state line="10" column="61" selection-start="345" selection-end="345" vertical-scroll-proportion="0.21794872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/architecture.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="77" selection-start="318" selection-end="318" vertical-scroll-proportion="0.21794872">
-          <folding />
-        </state>
+        <state line="10" column="77" selection-start="318" selection-end="318" vertical-scroll-proportion="0.21794872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="85" selection-start="268" selection-end="349" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
+        <state line="10" column="85" selection-start="268" selection-end="349" vertical-scroll-proportion="-6.5384617" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="802" selection-end="802" vertical-scroll-proportion="0.41410255">
-          <folding />
-        </state>
+        <state line="19" column="52" selection-start="802" selection-end="802" vertical-scroll-proportion="0.41410255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13076924">
-          <folding />
-        </state>
+        <state line="6" column="42" selection-start="133" selection-end="133" vertical-scroll-proportion="0.13076924" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08575031">
-          <folding />
-        </state>
+        <state line="4" column="38" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08575031" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="49" selection-start="5435" selection-end="5435" vertical-scroll-proportion="0.56125">
-          <folding />
-        </state>
+        <state line="81" column="49" selection-start="5435" selection-end="5435" vertical-scroll-proportion="0.56125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4182042">
-          <folding />
-        </state>
+        <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4182042" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
+        <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -906,9 +704,30 @@
         <state line="37" column="25" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="13" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="22" selection-start="2494" selection-end="2494" vertical-scroll-proportion="1.3995157">
+        <state line="105" column="71" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="87" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.36125">
           <folding />
         </state>
       </provider>

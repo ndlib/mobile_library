@@ -121,9 +121,11 @@ DEPENDENCIES
   capistrano (~> 2.8.0)
   coffee-rails (~> 3.2.1)
   dynamic_form (~> 1.1.4)
+  execjs
   jquery-rails
   json
   nokogiri
   rails (= 3.2.3)
   sass-rails (~> 3.2.3)
+  therubyracer
   uglifier (>= 1.0.3)

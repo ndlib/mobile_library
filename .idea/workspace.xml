@@ -85,7 +85,7 @@
       <file leaf-file-name="notification_mailer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/notification_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="56" selection-start="138" selection-end="138" vertical-scroll-proportion="0.041514043">
+            <state line="2" column="50" selection-start="132" selection-end="132" vertical-scroll-proportion="0.041514043">
               <folding />
             </state>
           </provider>
@@ -930,7 +930,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/notification_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="56" selection-start="138" selection-end="138" vertical-scroll-proportion="0.041514043">
+        <state line="2" column="50" selection-start="132" selection-end="132" vertical-scroll-proportion="0.041514043">
           <folding />
         </state>
       </provider>

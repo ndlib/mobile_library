@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\ajax-loader.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\ajax-loaderbg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\stylesheets\mobile - Copy.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/header.png" afterPath="$PROJECT_DIR$/app/assets/images/header.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/computers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/computers/index.html.erb" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="66" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Capfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="413" column="17" selection-start="14777" selection-end="14777" vertical-scroll-proportion="3.1318822">
+            <state line="413" column="17" selection-start="14777" selection-end="14777" vertical-scroll-proportion="-97.84">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="48" selection-start="174" selection-end="174" vertical-scroll-proportion="0.13076924">
               <folding />
             </state>
           </provider>
@@ -139,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/architecture.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/bic.html.erb" />
@@ -155,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
+        <option value="$PROJECT_DIR$/app/views/computers/index.html.erb" />
       </list>
     </option>
   </component>
@@ -309,6 +301,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile_library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="computers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -752,11 +766,6 @@
         <state line="20" column="52" selection-start="827" selection-end="827" vertical-scroll-proportion="0.4182042" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="156" selection-end="156" vertical-scroll-proportion="0.1275" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="14" selection-start="47" selection-end="61" vertical-scroll-proportion="0.0" />
@@ -830,7 +839,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="413" column="17" selection-start="14777" selection-end="14777" vertical-scroll-proportion="3.1318822">
+        <state line="413" column="17" selection-start="14777" selection-end="14777" vertical-scroll-proportion="-97.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/computers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="174" selection-end="174" vertical-scroll-proportion="0.13076924">
           <folding />
         </state>
       </provider>

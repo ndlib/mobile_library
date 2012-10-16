@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\javascripts\computers.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mobile.iml" afterPath="$PROJECT_DIR$/.idea/mobile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/computers_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/computers_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/computers/index.html.erb" afterPath="$PROJECT_DIR$/app/views/computers/index.html.erb" />
-    </list>
+    <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="" />
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +57,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="64" selection-start="183" selection-end="183" vertical-scroll-proportion="-0.65384614">
-              <folding />
+              <folding>
+                <marker date="1349372150606" expanded="true" signature="41:114" placeholder="if ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -750,7 +744,9 @@
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="64" selection-start="183" selection-end="183" vertical-scroll-proportion="-0.65384614">
-          <folding />
+          <folding>
+            <marker date="1349372150606" expanded="true" signature="41:114" placeholder="if ... end" />
+          </folding>
         </state>
       </provider>
     </entry>

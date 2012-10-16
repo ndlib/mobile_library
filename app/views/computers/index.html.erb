@@ -1,49 +1,40 @@
-<%= raw @statjs %>
-<%= javascript_include_tag "computers" %>
 
 <h3>Computer Lab Finder</h3>
+
+
 <div data-role="collapsible-set">
 
   <div data-role="collapsible" data-mini="true" data-content-theme="b">
-    <h4><span style="float: left;">Library 1st Floor:</span> <span style="float: right;"><span class="labstat" labid="22" labvar="lab_available"></span> Available</span></h4>
+    <h4><span style="float: left;">Library 1st Floor:</span> <span style="float: right;"><span class="labstat"><%= @stats['28']['available_count'] %></span> Available</span></h4>
     <div class="indent">
-    In Use: <span class="labstat" labid="22" labvar="lab_inuse"></span><br />
-    Available: <span class="labstat" labid="22" labvar="lab_available"></span><br />
-    Offline: <span class="labstat" labid="22" labvar="lab_offline"></span><br />
-    Total: <span class="labstat" labid="22" labvar="lab_total"></span>
+    In Use: <span class="labstat"><%= @stats['28']['in_use_count'] %></span><br />
+    Available: <span class="labstat"><%= @stats['28']['available_count'] %></span><br />
+    Offline: <span class="labstat"><%= @stats['28']['off_count'] %></span><br />
+    Total: <span class="labstat"><%= @stats['28']['total_count'] %></span>
+    </div>
+  </div>
+
+
+
+
+  <div data-role="collapsible" data-mini="true" data-content-theme="b">
+    <h4><span style="float: left;">Library GSU:</span><span style="float: right;"><span class="labstat"><%= @stats['21']['available_count'] %></span> Available</span></h4>
+    <div class="indent">
+      In Use: <span class="labstat"><%= @stats['21']['in_use_count'] %></span><br />
+      Available: <span class="labstat"><%= @stats['21']['available_count'] %></span><br />
+      Offline: <span class="labstat"><%= @stats['21']['off_count'] %></span><br />
+      Total: <span class="labstat"><%= @stats['21']['total_count'] %></span>
     </div>
   </div>
 
 
   <div data-role="collapsible" data-mini="true" data-content-theme="b">
-    <h4><span style="float: left;">Library Reference:</span><span style="float: right;"><span class="labstat" labid="40" labvar="lab_available"></span> Available</span></h4>
+    <h4><span style="float: left;">Mendoza BIC:</span><span style="float: right;"><span class="labstat"><%= @stats['26']['available_count'] %></span> Available</span></h4>
     <div class="indent">
-    In Use: <span class="labstat" labid="40" labvar="lab_inuse"></span><br />
-    Available: <span class="labstat" labid="40" labvar="lab_available"></span><br />
-    Offline: <span class="labstat" labid="40" labvar="lab_offline"></span><br />
-    Total: <span class="labstat" labid="40" labvar="lab_total"></span>
-    </div>
-  </div>
-
-
-  <div data-role="collapsible" data-mini="true" data-content-theme="b">
-    <h4><span style="float: left;">Library 1100 GSU:</span><span style="float: right;"><span class="labstat" labid="9" labvar="lab_available"></span> Available</span></h4>
-    <div class="indent">
-    In Use: <span class="labstat" labid="9" labvar="lab_inuse"></span><br />
-    Available: <span class="labstat" labid="9" labvar="lab_available"></span><br />
-    Offline: <span class="labstat" labid="9" labvar="lab_offline"></span><br />
-    Total: <span class="labstat" labid="9" labvar="lab_total"></span>
-    </div>
-  </div>
-
-
-  <div data-role="collapsible" data-mini="true" data-content-theme="b">
-    <h4><span style="float: left;">Mendoza BIC:</span><span style="float: right;"><span class="labstat" labid="41" labvar="lab_available"></span> Available</span></h4>
-    <div class="indent">
-    In Use: <span class="labstat" labid="41" labvar="lab_inuse"></span><br />
-    Available: <span class="labstat" labid="41" labvar="lab_available"></span><br />
-    Offline: <span class="labstat" labid="41" labvar="lab_offline"></span><br />
-    Total: <span class="labstat" labid="41" labvar="lab_total"></span>
+      In Use: <span class="labstat"><%= @stats['26']['in_use_count'] %></span><br />
+      Available: <span class="labstat"><%= @stats['26']['available_count'] %></span><br />
+      Offline: <span class="labstat"><%= @stats['26']['off_count'] %></span><br />
+      Total: <span class="labstat"><%= @stats['26']['total_count'] %></span>
     </div>
   </div>
 

@@ -2,29 +2,23 @@ class ComputersController < ApplicationController
 
   def index
 
-    Savon.configure do |c|
-      c.env_namespace = :soap
-      c.pretty_print_xml = false
-    end
-
-
     client = Savon::Client.new do
       wsdl.document = "http://labstats1-prod.cc.nd.edu/WebServices/Statistics.asmx?WSDL"
       wsdl.namespace = "http://m.library.nd.edu"
-      wsdl.element_form_default = :unqualified
     end
 
     client.wsse.created_at = Time.now
     client.wsse.expires_at = Time.now + 60
 
     response = client.request :get_grouped_current_stats do
-    soap.element_form_default = :unqualified
-      soap.body = {"GetGroupedCurrentStatsResult" => {"GroupStat" => { "groupId" => "28" } } }
+      soap.element_form_default = :unqualified
     end
 
     doc = Nokogiri::XML(response.to_xml)
+    # Makes life a lot easier to remove...
     doc.remove_namespaces!
 
+    # storing stats as hash within hash
     @stats = Hash.new {|hash, key| hash[key] = Hash.new}
 
     doc.xpath("//GroupStat").each do |group_stat|

@@ -40,7 +40,7 @@
       <file leaf-file-name="computers_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/computers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08607595">
+            <state line="25" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.53797466">
               <folding />
             </state>
           </provider>
@@ -774,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/computers_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08607595">
+        <state line="25" column="0" selection-start="704" selection-end="704" vertical-scroll-proportion="0.53797466">
           <folding />
         </state>
       </provider>

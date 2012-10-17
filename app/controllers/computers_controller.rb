@@ -24,19 +24,14 @@ class ComputersController < ApplicationController
     doc.xpath("//GroupStat").each do |group_stat|
 
       group_id = group_stat.xpath('.//groupId').text
-      puts group_id
 
       in_use_count = group_stat.xpath('.//inUseCount').text
-      puts in_use_count
 
       available_count = group_stat.xpath('.//availableCount').text
-      puts available_count
 
       off_count = group_stat.xpath('.//offCount').text
-      puts off_count
 
       total_count = group_stat.xpath('.//totalCount').text
-      puts total_count
 
       @stats[group_id] = { 'in_use_count' => in_use_count, 'available_count' => available_count, 'off_count' => off_count, 'total_count' => total_count }
 

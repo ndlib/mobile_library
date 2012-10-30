@@ -3,6 +3,8 @@
 
          $.mobile.loadingMessageTheme = 'c';
          $.mobile.loadingMessageTextVisible = false;
+         $.mobile.allowCrossDomainPages = true;
+         $.support.cors = true;
          $.mobile.page.prototype.options.backBtnTheme = "b";
          $.mobile.page.prototype.options.backBtnText = "back";
 

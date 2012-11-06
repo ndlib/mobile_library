@@ -33,4 +33,10 @@ class LocationsController < ApplicationController
   def vrc
   end
 
+  def map2
+  end
+
+  def map
+  end
+
 end

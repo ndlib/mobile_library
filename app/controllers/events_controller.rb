@@ -1,8 +1,11 @@
 class EventsController < ApplicationController
+  layout Proc.new { |controller| controller.request.xhr? ? false : "application" }
+  #layout false
 
   require 'rubygems'
   require 'open-uri'
   require 'nokogiri'
+
 
   def index
 
@@ -23,8 +26,7 @@ class EventsController < ApplicationController
 
     end
 
+
   end
-
-
 
 end

@@ -1,6 +1,7 @@
 class EventsController < ApplicationController
+  #slayout false
   layout Proc.new { |controller| controller.request.xhr? ? false : "application" }
-  #layout false
+
 
   require 'rubygems'
   require 'open-uri'

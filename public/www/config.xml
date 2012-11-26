@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "edu.nd.library"
+        version = "2.1.0">
+    <name>Hesburgh Libraries</name>
+
+    <description>
+        First mobile library app!
+    </description>
+
+    <author href="http://library.nd.edu" email="wits@listserv.library.nd.edu">
+        Hesburgh Libraries Web Application Development Team
+    </author>
+
+   
+    <access origin="http://*.nd.edu" subdomains="true" browserOnly="false" />
+    <access origin="https://*.nd.edu" subdomains="true" browserOnly="false" />
+    <access origin="https://libraryh3lp.com" subdomains="true" browserOnly="false" />
+    <access origin="http://chat.libraryh3lp.com" subdomains="true" browserOnly="false" />
+    <access origin="http://d1aaqh87bn7fin.cloudfront.net" subdomains="true" browserOnly="false" />
+
+    <preference name="phonegap-version" value="2.1.0" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="prerendered-icon" value="true" />
+    
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+    <gap:plugin name="ChildBrowser" />
+
+</widget>

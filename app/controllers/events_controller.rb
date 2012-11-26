@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-  #slayout false
+  layout false
   layout Proc.new { |controller| controller.request.xhr? ? false : "application" }
 
 

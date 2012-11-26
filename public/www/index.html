@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
+
+
+		<link href="css/jquery.mobile-1.2.0.min.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="http://mpprd.library.nd.edu/assets/mobile.css" media="screen" rel="stylesheet" type="text/css" />
+
+
+		<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="js/jquery.mobile-1.2.0.min.js" type="text/javascript"></script>
+
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hesburgh Libraries Mobile // University of Notre Dame</title>
+
+
+    </head>
+    <body>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="childbrowser.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			app.initialize();
+		</script>
+
+
+		<div data-role="page" data-theme="a" data-add-back-btn='true' id="indexPage">
+
+
+		  <div data-role="header">
+			<div class="ui-title">
+
+			  <img alt="Header" class="hesburgh-header" src="http://m.library.nd.edu/assets/header.png" />
+
+			</div>
+		  </div>
+
+		  <div data-role="content" data-theme="a" style="">
+
+
+			<div style='padding-top:17px;'>
+			  <form name="searchForm" method="post" action="http://onesearch.library.nd.edu/primo_library/libweb/action/search.do?fn=go&ct=search&vid=ndmobile&resetConfig=true" class="EXLSearchForm" enctype="application/x-www-form-urlencoded; charset=utf-8" onsubmit="if(window.manualFormSubmit){manualFormSubmit(this.id);return false;}" id="searchForm" target="_self">
+				<input type="search" name="vl(freeText0)" id="search_field" data-mini="true" data-theme="a" title="Search Library Catalog" placeholder="Search Library Catalog" accesskey="s" class="defaultTextActive defaultText" />
+				<input id="goButton" type="hidden" value="Search" class="submit" accesskey="g"/>
+			  </form>
+			</div>
+
+
+			<div class="ui-grid-c" style='padding-top:15px;'>
+
+			  <div class="ui-block-a icon">
+				<img alt="Ejournals-cs" class="icon" src="http://mpprd.library.nd.edu/assets/icons/ejournals-cs.png" />
+				<br />
+				<span class="grayText">e-Journals</span>
+			  </div>
+
+			  <div class="ui-block-b icon">
+				<a href="#" onclick="openChildBrowser('http://xerxes.library.nd.edu/quicksearch/');"><img alt="Articles" class="icon" src="http://mpprd.library.nd.edu/assets/icons/articles.png" /></a>
+				<br />
+				<a href="http://xerxes.library.nd.edu/quicksearch/" class="icon">Articles</a>
+			  </div>
+
+			  <div class="ui-block-c icon">
+				<a href="http://mpprd.library.nd.edu/mobiledatabases"><img alt="Atoz" class="icon" src="http://mpprd.library.nd.edu/assets/icons/atoz.png" /></a>
+				<br />
+				<a href="http://mpprd.library.nd.edu/mobiledatabases" class="icon">Mobile Databases</a>
+			  </div>
+
+			  <div class="ui-block-d icon">
+				<a href="http://mpprd.library.nd.edu/asklib"><img alt="Chat" class="icon" src="http://mpprd.library.nd.edu/assets/icons/chat.png" /></a>
+				<br />
+				<a href="http://mpprd.library.nd.edu/asklib" class="icon">Ask a Librarian</a>
+			  </div>
+
+
+			  <div class="ui-block-a icon">
+				<a href="http://mpprd.library.nd.edu/computers"><img alt="Imac" class="icon" src="http://mpprd.library.nd.edu/assets/icons/imac.png" /></a>
+				<br />
+				<a href="http://mpprd.library.nd.edu/computers" class="icon">Computer Finder</a>
+			  </div>
+
+			  <div class="ui-block-b icon">
+				<a href="events.html"><img alt="Calendar" class="icon" src="http://mpprd.library.nd.edu/assets/icons/calendar.png" /></a>
+				<br />
+				<a href="http://mpprd.library.nd.edu/events" class="icon">Events</a>
+			  </div>
+
+			  <div class="ui-block-c icon">
+
+				<a href="http://mpprd.library.nd.edu/locations"><img alt="Clock" class="icon" src="http://mpprd.library.nd.edu/assets/icons/clock.png" /></a>
+				<br />
+				<a href="http://mpprd.library.nd.edu/locations" class="icon">Hours &amp; Locations</a>
+
+			  </div>
+
+			  <div class="ui-block-d icon">
+				<a href="#" onclick="openChildBrowser('http://m.nd.edu');"><img alt="Nd" class="icon" src="http://mpprd.library.nd.edu/assets/icons/nd.png" /></a>
+				<br />
+				<a href="#" onclick="openChildBrowser('http://m.nd.edu');" class="icon">Mobile ND</a>
+			  </div>
+
+		    </div>
+
+			<div class="taupe_bg">&nbsp;</div>
+
+			<div data-role="footer" class="ui-bar" data-position="inline">
+			  <img alt="Hesburgh_mark" class="hesburgh-mark" src="http://mpprd.library.nd.edu/assets/hesburgh_mark.png" />&nbsp;&nbsp;<a href="#" onclick="openChildBrowser('http://www.library.nd.edu')" class="ui-link" data-role="none" target="_blank">Full Site</a>  |  <a href="http://mpprd.library.nd.edu/feedback" class="ui-link" data-role="none">Feedback</a>
+			</div>
+
+
+	  </div>
+
+    </body>
+</html>

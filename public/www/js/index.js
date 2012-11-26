@@ -64,18 +64,13 @@ var app = {
 
 //happens every "page", including remote servers
 $(document).bind('pageinit', function(event){
-    //alert("pageinit called!");                     
  
-// $('#navHeader').remove();
-// $("div:jqmData(role='page')").prepend("<div class='ui-bar ui-bar-b' id='navHeader'>I'm just a div with bar classes</div>");
-// $('body').prepend("<div class='ui-bar ui-bar-b' id='navHeader'>I'm just a div with bar classes</div>");
-    
 });
 
 
 $(document).bind('pageshow', function(event){
  
- $('#navHeader').remove();
+ //$('#navHeader').remove();
  $('body').prepend("<div class='ui-bar ui-bar-c' id='navHeader'>I'm just a div with bar classes</div>");
     
 });
@@ -83,11 +78,16 @@ $(document).bind('pageshow', function(event){
 
 $('#eventsPage').live('pagecreate',function(event, ui){
    
-   $.get(remoteURL + 'events', function(data) {
+  // $.get(remoteURL + 'events', function(data) {
+//	$('#eventsData').html(data);
+//	
+  // }); 
 
-	$('#eventsData').html(data);
-	$('#eventsData').trigger("create");
-   }); 
+
+
+$('#eventsData').load(remoteURL + 'events .innerContent', function() {
+  $('#eventsData').trigger("create");
+});
 
     
 });

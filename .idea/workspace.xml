@@ -2,69 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\jquery.mobile-1.2.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\index.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery.mobile-1.2.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\oninit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\noconnection.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-36-ldpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-48-mdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-72-hdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-96-xhdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-48-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-50-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-80-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada\icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\blackberry\icon-80.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\webos\icon-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-173-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-62-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada\screen-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\blackberry\screen-225.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\webos\screen-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\windows-phone\screen-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\helper.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\MIT.LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\splash.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/events_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/events_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/css/mobile.css" afterPath="$PROJECT_DIR$/public/www/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/events.html" afterPath="$PROJECT_DIR$/public/www/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/index.html" afterPath="$PROJECT_DIR$/public/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/oninit.js" afterPath="$PROJECT_DIR$/public/www/js/oninit.js" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +68,7 @@
       <file leaf-file-name="events_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="184" selection-end="184" vertical-scroll-proportion="0.084367245">
+            <state line="1" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.021091811">
               <folding />
             </state>
           </provider>
@@ -133,7 +77,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+            <state line="3" column="6" selection-start="39" selection-end="63" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -984,11 +928,6 @@
         <state line="8" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1014,9 +953,16 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="39" selection-end="63" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="184" selection-end="184" vertical-scroll-proportion="0.084367245">
+        <state line="1" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.021091811">
           <folding />
         </state>
       </provider>

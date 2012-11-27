@@ -68,7 +68,6 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\splash.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/asklib/index.html.erb" afterPath="$PROJECT_DIR$/app/views/asklib/index.html.erb" />
     </list>
     <ignored path="mobile.iws" />
@@ -107,7 +106,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/asklib/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="77" selection-start="265" selection-end="265" vertical-scroll-proportion="0.15256411">
+            <state line="7" column="62" selection-start="250" selection-end="250" vertical-scroll-proportion="0.15256411">
               <folding />
             </state>
           </provider>
@@ -1029,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/asklib/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="77" selection-start="265" selection-end="265" vertical-scroll-proportion="0.15256411">
+        <state line="7" column="62" selection-start="250" selection-end="250" vertical-scroll-proportion="0.15256411">
           <folding />
         </state>
       </provider>

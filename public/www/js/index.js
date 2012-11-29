@@ -20,7 +20,7 @@
 var childBrowser; 
 //var remoteURL='http://mpprd.library.nd.edu/';
 var remoteURL='http://localhost:3000/';
-
+var src_page;
  
 var app = {
 
@@ -63,34 +63,101 @@ var app = {
 
 
 //happens every "page", including remote servers
-$(document).bind('pageinit', function(event){
- 
+$(document).bind('pagebeforechange', function(e, data){
+
+	// We only want to handle changePage() calls where the caller is
+	// asking us to load a page by url for subpage
+	if ( typeof data.toPage === "string" ){
+	
+	
+		var u = $.mobile.path.parseUrl( data.toPage )
+			
+				
+		if ( u.hash ){
+			showSubpage( remoteURL + u.hash.replace(/#/g,"/") + ' .innerContent', u, data.options );
+		
+		}else{
+			showSubpage( u.href, u, data.options);
+		}
+
+		// Make sure to tell changePage() we've handled this call
+		
+		e.preventDefault();
+
+	}
+
+
+});
+
+$('.cbLink').live('click', function () {
+
+	openChildBrowser(this.href);
+	return false;
+	
 });
 
 
-$(document).bind('pageshow', function(event){
- 
- //$('#navHeader').remove();
- $('body').prepend("<div class='ui-bar ui-bar-c' id='navHeader'>I'm just a div with bar classes</div>");
+function showSubpage( sourceURL, origURL, options ) {
     
-});
-
-
-$('#eventsPage').live('pagecreate',function(event, ui){
-   
-  // $.get(remoteURL + 'events', function(data) {
-//	$('#eventsData').html(data);
-//	
-  // }); 
-
-
-
-$('#eventsData').load(remoteURL + 'events .innerContent', function() {
-  $('#eventsData').trigger("create");
-});
-
     
-});
+    $.mobile.loading( 'show' );
+
+    $.ajax({
+        url     : 'subpage.html',
+        success : function (data) {
+		
+		//convert return html from subpage to jquery object
+		var $page = $(data);
+	
+		
+		$($page.find('.subPageData')).load(sourceURL, function() {
+
+
+			//change any external domain links to open in child browser
+			$page.find("a").prop("href", function(){
+
+				//alert("now: " + $(location).attr('href') + " will be:  " + $(this).attr('href'));
+
+				//at this point attr refers to the original href retrieved from the html
+				if ($.mobile.path.isRelativeUrl($(this).attr('href'))){
+				
+					return $(this).attr('href').replace(/\//g, "#");
+					
+				}else{
+					if ((($.mobile.path.parseUrl(this.href).hostname != "nd.edu") || ($(this).prop("target"))) && (($.mobile.path.parseUrl(this.href).protocol == "http:") || ($.mobile.path.parseUrl(this.href).protocol == "https:"))){
+						$(this).addClass("cbLink");
+					}
+					
+					return this.href;
+				}
+				
+			});
+						
+			$page.page();
+			
+			options.dataUrl = origURL.href;
+			
+			$.mobile.changePage( $page, options );
+			
+			$.mobile.loading( 'hide' );
+			
+			
+		}); 
+
+	//add new page to the DOM
+	$.mobile.pageContainer.append($page)
+
+	$('.subPageData').trigger("create");
+	$('.subPageData').show("slow");
+	
+		
+        },
+        error   : function (jqXHR, textStatus, errorThrown) { alert(errorThrown); }
+    });
+
+
+
+}
 
 
 
@@ -102,11 +169,10 @@ function openChildBrowser(url){
 	window.plugins.childBrowser.showWebPage(url);
 	//childBrowser.showWebPage(url);
     }catch (err){
-	alert(err);
+	alert("Childbrowser plugin is not working, a new window will open instead.  Error: " + err);
+	window.open(url);
     }
 }
-
-
 
 
 
@@ -123,4 +189,3 @@ function checkConnection() {
     }
 
 }
-

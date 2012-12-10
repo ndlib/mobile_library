@@ -22,6 +22,9 @@ div.icon {
     max-width:100px;
 }
 
+img.icon{
+    width:55px;
+}
 
 div.icon .ui-link {
 	text-decoration: none; 

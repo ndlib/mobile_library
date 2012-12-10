@@ -29,6 +29,12 @@ div.icon .ui-link {
 	font-weight:normal;
 }
 
+
+img.icon{
+    width:52px;
+}
+
+
 div.icon .grayText {
     color: #DAE1E7;
 }
@@ -41,27 +47,25 @@ div.icon .grayText {
 }
 
 
-#toolbar h1{
-    text-align: left;
-    vertical-align: middle;    
-    margin-left:8px;
-    color: #f8f7e9;   
-    font-weight: bold;   
-    font-size: 1.5em;   
-    text-shadow: 1px 1px 0px #313131; 
-}
 
 #toolbar img{
-    float: center;
     vertical-align: middle;    
     margin-top:7px;  
-    margin-left:4px;
+    margin-left:83px;
     max-height:23px;
+    opacity: 1;
 }
+
+#toolbar a{
+    opacity: 1;
+}
+
 
 #toolbar{
     text-align: left; 
+    height:28px;
     box-shadow: 10px 0px 5px #000000;    
+    opacity: 0.9;
     background: #2b5781 /*{a-body-background-color}*/;
     background-image: -webkit-gradient(linear, left top, left bottom, from( #2b5781 /*{a-body-background-start}*/), to( #304962 /*{a-body-background-end}*/)); /* Saf4+, Chrome */
     background-image: -webkit-linear-gradient( #2b5781 /*{a-body-background-start}*/, #304962 /*{a-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
@@ -71,6 +75,7 @@ div.icon .grayText {
     background-image:         linear-gradient( #2b5781 /*{a-body-background-start}*/, #304962 /*{a-body-background-end}*/);
     padding: .5em 7px .65em;
 }
+
 
 .ui-header, .ui-footer {
     border-top-width:0;
@@ -84,8 +89,13 @@ div.icon .grayText {
  }
 
 .ui-header .ui-btn-left{
-	top:40px;
-	left:13px;
+	top:7px;
+	left:7px;
+}
+
+.ui-header .ui-btn-right{
+	top:10px;
+	right:28px;
 }
 
 .ui-header .ui-btn-inner{
@@ -108,8 +118,8 @@ div.icon .grayText {
 
 .ui-footer{
     margin:0px 8px;
-	text-align:center;
-	background: #f8f7e9 !important;
+    text-align:center;
+    background: #f8f7e9 !important;
     padding:10px;
 }
 
@@ -137,8 +147,8 @@ img.branch{
 }
 
 .taupe_bg{
-	background-color:#dcd5b6;
-	height:1px;
+    background-color:#dcd5b6;
+    height:1px;
     margin:0px 8px;
 }
 
@@ -244,6 +254,7 @@ img.branch{
     padding-top:0px;
     margin: 0px 8px;
 }
+
 .ui-body-a,
 .ui-body-a input,
 .ui-body-a select,
@@ -458,6 +469,7 @@ img.branch{
     color: #f8f7e9 /*{a-bhover-color}*/;
 }
 .ui-btn-down-b {
+    font-size:1em;
     border: 1px solid #304962 /*{c-bdown-border}*/;
     background: #386590 /*{c-bdown-background-color}*/;
     font-weight: bold;

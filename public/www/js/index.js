@@ -50,6 +50,10 @@ var app = {
  		window.location = "noconnection.html";
  	}
 	
+	//this is for iframe speaking to parent
+	window.addEventListener('message', onExtURL, false);
+	
+	
 	// This is an event handler function, which means the scope is the event.
 	// So, we must explicitly called `app.report()` instead of `this.report()`.
         app.report('deviceready');
@@ -62,10 +66,19 @@ var app = {
 
 
 
+$('.cbLink').live('click', function () {
+
+	openChildBrowser(this.href);
+	return false;
+
+});
+
+
+$(window).bind('orientationchange', _orientationHandler);
+
+
 $(document).bind('pageinit', function(e, data){
-	//alert("pageinit called");
-	
-	
+
 	$('a').live('tap',function(event) {
 		$.mobile.loading( 'show' );
 	});
@@ -105,6 +118,7 @@ $(document).bind('pagebeforechange', function(e, data){
 		}else if (isExtLink(u)){
 
 			openChildBrowser(sourceURL);
+			$.mobile.loading( 'hide' );
 
 
 		//link internal to the library but external to m. site - eg Primo, Quicksearch, ejournal locator
@@ -123,19 +137,34 @@ $(document).bind('pagebeforechange', function(e, data){
 });
 
 
+//for some reason phonegap calls message twice.  this is to make sure it wasn't a duplicate!
+var previousOpen = '';
 
-$('.cbLink').live('click', function () {
+window.onExtURL = function (e) {
 
-	openChildBrowser(this.href);
-	return false;
+	var u = $.mobile.path.parseUrl( e.origin );
+	
+	if (previousOpen != e.data){
+		if((e.origin == 'http://localhost:3000') || (u.hostname.indexOf("library.nd.edu") > 0)){
+			openChildBrowser(e.data);
+			previousOpen = e.data;
+		}else{
+			alert("not valid origin: " + e.origin);
+		}
+	}
+	
+	
+}
 
-});
+//if(event.orientation){
+//	$(.photopopup).
+//}
+
 
 
 
 function showSubpage( sourceURL, origURLObj, options ) {
-    
-              
+                  
         
     $.mobile.loading( 'show' );
 
@@ -180,9 +209,7 @@ function showSubpage( sourceURL, origURLObj, options ) {
 
 				});
 					
-				
-
-				
+	
 
 				//change any external domain links to open in child browser
 				$page.find("a").prop("href", function(){
@@ -202,7 +229,6 @@ function showSubpage( sourceURL, origURLObj, options ) {
 				});
 
 				
-
 				$page.page();
 
 				options.dataUrl = origURLObj.href;
@@ -239,11 +265,6 @@ function showSubpage( sourceURL, origURLObj, options ) {
 
 
 
-
-
-
-
-
 function showIFrame( sourceURL, origURLObj, options ) {
     
         
@@ -277,7 +298,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 				//load into an iframe
 				//and expand the width of the content container (parents)
 
-				$page.find('.subPageData').append( "<iframe id='iframeSource' onload='updateIFrame();' frameborder='0' style='background-color:#304962; width:100%; height:0px; border-style:none; margin:0px; padding:0px;' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px');
+				$page.find('.subPageData').append( "<iframe id='iframeSource' onload='updateIFrame();' frameborder='0' src = '" + sourceURL + "'></iframe>" );
 
 				$page.page();
 
@@ -306,11 +327,40 @@ function showIFrame( sourceURL, origURLObj, options ) {
         error   : function (jqXHR, textStatus, errorThrown) { alert(errorThrown); }
     });
 
-
-
 }
 
 
+
+
+function updateIFrame(){
+
+	var u = $.mobile.path.parseUrl(window.location.href);
+
+	$('#iframeSource').css("height","100%");
+	
+	$('#iframeSource').contents().find('a').attr('href', function(i, val){
+
+				
+		if ($.mobile.path.isRelativeUrl(val) === true){
+			val = $.mobile.path.makeUrlAbsolute(val, $('#iframeSource').attr('src'));
+		}
+	
+		var u = $.mobile.path.parseUrl( val );
+	
+		if (isExtLink(u)){
+			return "javascript:window.top.postMessage('" + val + "', '*');";
+		}else{
+			return val;
+		}
+	
+	});	
+	
+	
+	$('#iframeSource').contents().find('a').removeAttr('target');
+	
+	$.mobile.loading( 'hide' );
+
+}
 
 
 
@@ -331,46 +381,10 @@ function isExtLink(parsedURL){
 }
 
 
-function updateIFrame(){
-
-	var u = $.mobile.path.parseUrl(window.location.href);
-	
-	//append javascript for opening childbrowser since javascript here isn't available there
-	$('#iframeSource').contents().find('body').append(unescape("%3Cscript src='" + u.domain + u.directory + "js/iframe.js'%3E%3C/script%3E"));
-
-	$('#iframeSource').css("height","100%");
-	
-	
-	$.mobile.loading( 'hide' );
-			
-	$('#iframeSource').contents().find('a').attr('href', function(i, val){
-
-
-		if ($.mobile.path.isRelativeUrl(val) === true){
-			val = $.mobile.path.makeUrlAbsolute(val, $('#iframeSource').attr('src'));
-		}
-	
-		var u = $.mobile.path.parseUrl( val );
-	
-		if (isExtLink(u)){
-			return "javascript:window.parent.openChildBrowser('" + val + "');";
-		}else{
-			return val;
-		}
-	
-	});	
-	
-	$('#iframeSource').contents().find('a').css("background-color","#BADA55");
-	
-}
-
-
-
-
 
 
 function openChildBrowser(url){
-alert('parent opencb');
+
     try {
 	//both of these should work...
 	window.plugins.childBrowser.showWebPage(url);

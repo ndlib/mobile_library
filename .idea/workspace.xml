@@ -5,7 +5,6 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/articles.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/articles.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
@@ -72,7 +71,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="42" selection-start="1465" selection-end="1488" vertical-scroll-proportion="0.33290654">
+            <state line="50" column="45" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-1.4161332">
               <folding />
             </state>
           </provider>
@@ -1061,7 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1465" selection-end="1488" vertical-scroll-proportion="0.33290654">
+        <state line="50" column="45" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-1.4161332">
           <folding />
         </state>
       </provider>

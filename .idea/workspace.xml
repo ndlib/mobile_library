@@ -5,7 +5,16 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/articles.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/articles.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/calendar.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/calendar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/chat.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/chat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/clock.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/clock.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/ejournals.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/ejournals.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/imac.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/imac.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/nd.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/nd.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
     </list>
     <ignored path="mobile.iws" />
@@ -33,15 +42,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/asklib/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="52" selection-start="225" selection-end="240" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="59" selection-start="528" selection-end="528" vertical-scroll-proportion="-3.2692308">
@@ -68,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="32" selection-start="698" selection-end="698" vertical-scroll-proportion="0.087067865">
+            <state line="38" column="85" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-7.48">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="40" selection-start="503" selection-end="503" vertical-scroll-proportion="0.3943834">
               <folding />
             </state>
           </provider>
@@ -135,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/computers_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/locations_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/locations/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
@@ -151,6 +159,7 @@
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -971,11 +980,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/events_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/events/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" />
@@ -1060,7 +1064,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="698" selection-end="698" vertical-scroll-proportion="0.087067865">
+        <state line="38" column="85" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-7.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="503" selection-end="503" vertical-scroll-proportion="0.3943834">
           <folding />
         </state>
       </provider>

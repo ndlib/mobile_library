@@ -50,7 +50,7 @@ task :pre_production do
   set :bundler,   File.join(ruby_bin, 'bundle')
   set :rake,      File.join(shared_path, 'vendor/bundle/ruby/1.8/bin/rake')
   set :user,      'rbpprd'
-  set :domain,    'rpprd.library.nd.edu'
+  set :domain,    'rbpprd.library.nd.edu'
   set :site_url,  'mpprd.library.nd.edu'
 
   # Set the default path to make a custom version of python available for libv8

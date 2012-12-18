@@ -5,16 +5,7 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/articles.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/articles.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/atoz.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/calendar.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/calendar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/chat.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/chat.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/clock.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/clock.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/ejournals.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/ejournals.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/imac.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/imac.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/icons/nd.png" afterPath="$PROJECT_DIR$/app/assets/images/icons/nd.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="59" selection-start="528" selection-end="528" vertical-scroll-proportion="-3.2692308">
+            <state line="5" column="52" selection-start="521" selection-end="521" vertical-scroll-proportion="0.10897436">
               <folding />
             </state>
           </provider>
@@ -71,24 +62,6 @@
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="55" column="2" selection-start="1773" selection-end="1773" vertical-scroll-proportion="-21.08">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.83028084">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="7" selection-start="3122" selection-end="3122" vertical-scroll-proportion="-18.16">
               <folding />
             </state>
           </provider>
@@ -155,10 +128,10 @@
         <option value="$PROJECT_DIR$/app/mailers/notification_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
       </list>
     </option>
   </component>
@@ -1035,13 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="59" selection-start="528" selection-end="528" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1058,7 +1024,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="7" selection-start="3122" selection-end="3122" vertical-scroll-proportion="-18.16">
+        <state line="138" column="7" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.57178843">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.83028084">
           <folding />
         </state>
       </provider>
@@ -1070,9 +1043,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="795" selection-end="795" vertical-scroll-proportion="0.83028084">
+        <state line="5" column="52" selection-start="521" selection-end="521" vertical-scroll-proportion="0.10897436">
           <folding />
         </state>
       </provider>

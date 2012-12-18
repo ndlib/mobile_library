@@ -53,10 +53,6 @@ task :pre_production do
   set :domain,    'rpprd.library.nd.edu'
   set :site_url,  'mpprd.library.nd.edu'
 
-  # Set the default path to make a custom version of python available for libv8
-  set :default_environment, {
-    'PATH' => "/shared/python/bin/:$PATH:#{ruby_bin}"
-  }
 
   server "#{user}@#{domain}", :app, :web, :db, :primary => true
 end

@@ -38,7 +38,6 @@ gem 'jquery-rails'
 gem 'nokogiri'
 gem "dynamic_form", "~> 1.1.4"
 gem 'execjs'
-gem 'libv8', '~> 3.11.8'
-gem 'therubyracer'
+gem 'therubyracer', "~> 0.10.0"
 gem 'savon'
 gem 'httpi'

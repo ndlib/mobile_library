@@ -26,6 +26,15 @@
 
          });
 
+
+
+         $('#popupLink').click(function() {
+             alert('here')
+             $("#popupMap").popup("open")
+             return false;
+
+         });
+
      });
 
 

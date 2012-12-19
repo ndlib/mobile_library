@@ -9,7 +9,12 @@
          $.mobile.page.prototype.options.backBtnTheme = "b";
          $.mobile.page.prototype.options.backBtnText = "back";
 
+     });
 
+
+
+
+     $(document).bind('pageinit', function(e, data){
 
          $( "#popupMap" ).on({
              popupbeforeposition: function() {
@@ -20,7 +25,6 @@
              }
 
          });
-
 
      });
 

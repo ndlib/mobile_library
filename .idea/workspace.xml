@@ -79,7 +79,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-20.192308">
+            <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-27.461538">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
       <file leaf-file-name="mobile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.35286936">
+            <state line="22" column="17" selection-start="714" selection-end="714" vertical-scroll-proportion="0.45665446">
               <folding />
             </state>
           </provider>
@@ -997,13 +997,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-20.192308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1046,9 +1039,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-27.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.35286936">
+        <state line="22" column="17" selection-start="714" selection-end="714" vertical-scroll-proportion="0.45665446">
           <folding />
         </state>
       </provider>

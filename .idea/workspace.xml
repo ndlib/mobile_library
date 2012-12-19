@@ -5,6 +5,7 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="54" selection-start="227" selection-end="235" vertical-scroll-proportion="0.06538462">
+            <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="0.06538462">
               <folding />
             </state>
           </provider>
@@ -1045,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="227" selection-end="235" vertical-scroll-proportion="0.06538462">
+        <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="0.06538462">
           <folding />
         </state>
       </provider>

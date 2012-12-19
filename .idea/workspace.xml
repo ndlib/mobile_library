@@ -5,10 +5,10 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/css/mobile.css" afterPath="$PROJECT_DIR$/public/www/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/index.html" afterPath="$PROJECT_DIR$/public/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="122" selection-start="151" selection-end="151" vertical-scroll-proportion="0.021794872">
+            <state line="9" column="62" selection-start="519" selection-end="519" vertical-scroll-proportion="0.19615385">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="169.32">
+            <state line="940" column="17" selection-start="40305" selection-end="40307" vertical-scroll-proportion="-10.4">
               <folding />
             </state>
           </provider>
@@ -1042,14 +1042,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="62" selection-end="62" vertical-scroll-proportion="169.32">
+        <state line="940" column="17" selection-start="40305" selection-end="40307" vertical-scroll-proportion="-10.4">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="122" selection-start="151" selection-end="151" vertical-scroll-proportion="0.021794872">
+        <state line="9" column="62" selection-start="519" selection-end="519" vertical-scroll-proportion="0.19615385">
           <folding />
         </state>
       </provider>

@@ -6,7 +6,6 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +97,7 @@
       <file leaf-file-name="mobile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="768" selection-end="768" vertical-scroll-proportion="0.4981685">
+            <state line="17" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.35286936">
               <folding />
             </state>
           </provider>
@@ -1049,7 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="768" selection-end="768" vertical-scroll-proportion="0.4981685">
+        <state line="17" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.35286936">
           <folding />
         </state>
       </provider>

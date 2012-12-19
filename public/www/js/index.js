@@ -84,11 +84,12 @@ $('.cbLink').live('click', function () {
 
 $(document).bind('pageinit', function(e, data){
 
-    $( ".photopopup" ).on({
+    $( "#popupMap" ).on({
         popupbeforeposition: function() {
             var maxHeight = $( window ).height() - 60 + "px";
-            $( ".photopopup img" ).css( "max-height", maxHeight );
+            $( "#popupMap img" ).css( "max-height", maxHeight );
             $.mobile.loading( 'hide' );
+            alert($('#popupMap').attr('class'))
         }
     });
 

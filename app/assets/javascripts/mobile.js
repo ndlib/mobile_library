@@ -10,11 +10,19 @@
          $.mobile.page.prototype.options.backBtnText = "back";
 
 
-        }).live('[data-role="page"]', 'click', function () {
-             if (!$(this).hasClass( "mobileDBLink" ))
-                $.mobile.showPageLoadingMsg("c","",false);
 
-        });
+         $( "#popupMap" ).on({
+             popupbeforeposition: function() {
+                 var maxHeight = $( window ).height() - 30 + "px";
+                 $("#popupMap img").css( "max-height", maxHeight );
+                 //alert($('#popupMap').attr('class'))
+                 $.mobile.loading( 'hide' );
+             }
+
+         });
+
+
+     });
 
 
 

@@ -5,6 +5,8 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="0.06538462">
+            <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -93,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mobile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+            <state line="24" column="5" selection-start="768" selection-end="768" vertical-scroll-proportion="0.4981685">
               <folding />
             </state>
           </provider>
@@ -119,7 +121,6 @@
         <option value="$PROJECT_DIR$/app/views/locations/map.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
         <option value="$PROJECT_DIR$/app/views/feedback/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/events_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/events/index.html.erb" />
@@ -131,6 +132,7 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
       </list>
     </option>
   </component>
@@ -996,11 +998,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-20.192308">
@@ -1045,7 +1042,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="0.06538462">
+        <state line="3" column="44" selection-start="225" selection-end="225" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="768" selection-end="768" vertical-scroll-proportion="0.4981685">
           <folding />
         </state>
       </provider>

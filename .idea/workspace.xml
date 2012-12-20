@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\views\locations\map.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/architecture.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/architecture.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/bic.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/bic.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/kkic.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/kkic.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/radlab.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/vrc.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/subpage.html" afterPath="$PROJECT_DIR$/public/www/subpage.html" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,91 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="architecture.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/architecture.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="290" selection-end="306" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bic.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="58" selection-start="342" selection-end="342" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chemistry.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="61" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="engineering.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hesburgh.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kkic.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/map.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mathematics.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="319" selection-end="319" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radlab.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="59" selection-start="332" selection-end="332" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vrc.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.2236842">
+            <state line="3" column="49" selection-start="197" selection-end="197" vertical-scroll-proportion="0.06375">
               <folding />
             </state>
           </provider>
@@ -150,7 +62,6 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
-        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/architecture.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/bic.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
@@ -159,6 +70,7 @@
         <option value="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
       </list>
     </option>
   </component>
@@ -1011,37 +923,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="77" selection-start="106" selection-end="106" vertical-scroll-proportion="-0.65384614">
+        <state line="10" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.2236842">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/architecture.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="290" selection-end="306" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="59" selection-start="332" selection-end="332" vertical-scroll-proportion="0.21794872">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="342" selection-end="342" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="64" selection-start="319" selection-end="319" vertical-scroll-proportion="0.21794872">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="322" selection-end="322" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="0.21794872">
           <folding />
         </state>
       </provider>
@@ -1053,37 +958,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="64" selection-start="328" selection-end="328" vertical-scroll-proportion="0.2125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/map.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="61" selection-start="322" selection-end="322" vertical-scroll-proportion="0.2125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="319" selection-end="319" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="58" selection-start="342" selection-end="342" vertical-scroll-proportion="0.2125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/architecture.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="332" selection-end="332" vertical-scroll-proportion="-6.5384617">
+        <state line="10" column="49" selection-start="290" selection-end="306" vertical-scroll-proportion="0.2125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.2236842">
+        <state line="3" column="49" selection-start="197" selection-end="197" vertical-scroll-proportion="0.06375">
           <folding />
         </state>
       </provider>

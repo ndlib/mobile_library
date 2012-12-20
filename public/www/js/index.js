@@ -90,13 +90,18 @@ $(document).bind('pageinit', function(e, data){
 		 var maxHeight = $( window ).height() - 30 + "px";
 		$("#popupMap img").css( "max-height", maxHeight );         
             
+        },
+        popupafterclose: function() {
+
+		 alert('closed');       
+            
         }
         
     });
     
     
     
-    $('#popupLink').live('click', function () {
+    $('.popupLink').live('click', function () {
     
     	alert('popup clicked');
     	openPopupMap();

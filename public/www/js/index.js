@@ -72,10 +72,8 @@ var app = {
 
 
 $('.cbLink').live('click', function () {
-
-	$.mobile.loading( 'show' );
-	//openChildBrowser(this.href);
-	//return false;
+	openChildBrowser(this.href);
+	return false;
 
 });
 
@@ -84,17 +82,51 @@ $('.cbLink').live('click', function () {
 
 $(document).bind('pageinit', function(e, data){
 
+    console.log(e);
+
     $( "#popupMap" ).on({
         popupbeforeposition: function() {
-            var maxHeight = $( window ).height() - 60 + "px";
-            $( "#popupMap img" ).css( "max-height", maxHeight );
-            $.mobile.loading( 'hide' );
-            alert($('#popupMap').attr('class'))
+
+		 var maxHeight = $( window ).height() - 30 + "px";
+		$("#popupMap img").css( "max-height", maxHeight );         
+            
         }
+        
     });
-
-
+    
+    
+    
+    $('#popupLink').live('click', function () {
+    
+    	alert('popup clicked');
+    	openPopupMap();
+    	return false;
+    	
+    });
+    
+    
+    
 });
+
+
+$(window).bind('orientationchange resize', function(event){
+
+	
+	openPopupMap();
+	
+});
+
+
+
+function openPopupMap(){
+           
+	$("#popupMap").popup("open", "15px", "15px");
+	
+        $.mobile.loading( 'hide' );
+
+}
+
+
 
 
 //happens every "page", including remote servers
@@ -166,9 +198,6 @@ window.onExtURL = function (e) {
 	
 }
 
-//if(event.orientation){
-//	$(.photopopup).
-//}
 
 
 
@@ -291,7 +320,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 		
 			$.post( sourceURL, $("form").serialize(), function(rdata){
 
-				$page.find('.subPageData').append( "<iframe id='iframeSource' onload='updateIFrame();' style='height:0px;width:250px;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px');
+				$page.find('.subPageData').append( "<iframe id='iframeSource' onload='updateIFrame();' style='width:250px; display:none;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
 
 				$page.page();
 	
@@ -309,7 +338,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 				//load into an iframe
 				//and expand the width of the content container (parents)
 
-				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame();' style='width:250px;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
+				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame();' style='width:250px; display:none;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
 
 				$page.page();
 
@@ -384,7 +413,6 @@ function updateIFrame(){
 
 	$('.iframeSource').css('display', 'block');
 	
-console.log('onloadend');
 
 }
 

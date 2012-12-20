@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\views\locations\map.html.erb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/subpage.html" afterPath="$PROJECT_DIR$/public/www/subpage.html" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />

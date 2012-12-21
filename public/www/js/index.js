@@ -79,21 +79,26 @@ $('.cbLink').live('click', function () {
 
 
 
-
+var popupMapOpen = false;
 $(document).bind('pageinit', function(e, data){
 
-    console.log(e);
+    //console.log(e);
 
-    $( "#popupMap" ).on({
-        popupbeforeposition: function() {
-
-		 var maxHeight = $( window ).height() - 30 + "px";
-		$("#popupMap img").css( "max-height", maxHeight );         
-            
+    $( ".popupMap" ).on({
+    	popupbeforeposition: function(){
+    
+		var maxWidth = $( window ).width() - 30 + "px";
+		$(".popupMap img").css( "max-width", maxWidth );   
+	
+	},    
+        popupafteropen: function() {
+        
+		popupMapOpen = true;
+		
         },
         popupafterclose: function() {
 
-		 alert('closed');       
+		 popupMapOpen = false;      
             
         }
         
@@ -101,9 +106,8 @@ $(document).bind('pageinit', function(e, data){
     
     
     
-    $('.popupLink').live('click', function () {
-    
-    	alert('popup clicked');
+    $('.popupLink').on('click', function () {
+    	
     	openPopupMap();
     	return false;
     	
@@ -116,20 +120,49 @@ $(document).bind('pageinit', function(e, data){
 
 $(window).bind('orientationchange resize', function(event){
 
+	if (popupMapOpen === true){
 	
-	openPopupMap();
+		//setTimeout(function() {
+		
+		openPopupMap().trigger( 'updatelayout' );
+		
+		//}, 500);	
+	
+
+	}
 	
 });
 
 
 
 function openPopupMap(){
+
+	var maxWidth = $( window ).width() - 30 + "px";
+	$(".popupMap img").css( "max-width", maxWidth ); 
+    		
            
-	$("#popupMap").popup("open", "15px", "15px");
+	$(".popupMap").popup("open", "15px", "5px");
 	
         $.mobile.loading( 'hide' );
 
 }
+
+
+
+$('.EXLSearchForm').live('submit', function () {
+  //alert('Handler for .submit() called.');
+  
+  if ($('#search_field').val() != ''){
+  	//var u = $.mobile.path.parseUrl( 
+  	alert("http://onesearch.library.nd.edu/primo_library/libweb/action/search.do?vid=ndmobile&fn=search&resetConfig=true&ct=search&vl%28freeText0%29=" + $('#search_field').val() );
+  	$.mobile.changePage( "http://onesearch.library.nd.edu/primo_library/libweb/action/search.do?vid=ndmobile&fn=search&resetConfig=true&ct=search&vl%28freeText0%29=" + $('#search_field').val() )
+  }
+  
+  
+  return false;
+});
+
+
 
 
 
@@ -220,10 +253,43 @@ function showSubpage( sourceURL, origURLObj, options ) {
 		var $page = $(data);
 		
 		if (options.type == "post"){
-		
+
 			$.post( sourceURL, $("form").serialize(), function(rdata){
 
 			  	$page.find('.subPageData').html( $(rdata).find('.innerContent') );
+
+
+				//change relative paths to images to point to m. site
+				$page.find("img").prop("src", function(){
+					srcURL = $(this).attr('src');
+					if (($.mobile.path.isRelativeUrl(srcURL)) && (srcURL.indexOf("assets") > 0)){
+						return remoteURL + srcURL;
+					}else{
+						return srcURL;
+					}
+
+				});
+					
+	
+
+				//change any external domain links to open in child browser
+				$page.find("a").prop("href", function(){
+
+					//at this point attr refers to the original href retrieved from the html
+					if ($.mobile.path.isRelativeUrl($(this).attr('href'))){
+						return $(this).attr('href').replace(/\//g, "#");
+					}else{
+
+						if ($(this).prop("target")){
+							$(this).addClass("cbLink");
+						}
+
+						return this.href;
+					}
+
+				});
+
+
 
 				$page.page();
 	
@@ -323,6 +389,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 		
 		if (options.type == "post"){
 		
+			
 			$.post( sourceURL, $("form").serialize(), function(rdata){
 
 				$page.find('.subPageData').append( "<iframe id='iframeSource' onload='updateIFrame();' style='width:250px; display:none;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
@@ -365,13 +432,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 	$('.subPageData').trigger("create");
 	$('.subPageData').show("slow");
 	
-	
-	$('.iframeSource').ready(function(){
-		//$.mobile.loading( 'show' );
-               // console.log('this is loaded');
-        });
-	
-	
+		
 	
 
         },

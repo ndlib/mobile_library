@@ -12,14 +12,12 @@
      });
 
 
-
-
      $(document).bind('pageinit', function(e, data){
 
-         $( "#popupMap" ).on({
+         $( ".popupMap" ).on({
              popupbeforeposition: function() {
                  var maxHeight = $( window ).height() - 30 + "px";
-                 $("#popupMap img").css( "max-height", maxHeight );
+                 $(".popupMap img").css( "max-height", maxHeight );
                  $.mobile.loading( 'hide' );
              }
 
@@ -27,8 +25,8 @@
 
 
 
-         $('#popupLink').click(function() {
-             $("#popupMap").popup("open")
+         $('.popupLink').click(function() {
+             $(".popupMap").popup("open")
              return false;
           });
 

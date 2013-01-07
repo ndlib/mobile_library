@@ -108,7 +108,7 @@
       <file leaf-file-name="hesburgh.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="18" selection-start="720" selection-end="720" vertical-scroll-proportion="0.64981276">
+            <state line="40" column="22" selection-start="783" selection-end="783" vertical-scroll-proportion="0.79588014">
               <folding />
             </state>
           </provider>
@@ -162,7 +162,16 @@
       <file leaf-file-name="engineering.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-11.846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.3846154">
               <folding />
             </state>
           </provider>
@@ -385,6 +394,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile_library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="locations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -874,11 +905,6 @@
         <state line="940" column="17" selection-start="40305" selection-end="40307" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.6153846" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="56" selection-start="304" selection-end="304" vertical-scroll-proportion="0.2236842" />
@@ -899,13 +925,6 @@
         <state line="21" column="10" selection-start="829" selection-end="829" vertical-scroll-proportion="0.4576923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" />
@@ -914,13 +933,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -951,9 +963,30 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-12.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-11.846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="18" selection-start="720" selection-end="720" vertical-scroll-proportion="0.64981276">
+        <state line="40" column="22" selection-start="783" selection-end="783" vertical-scroll-proportion="0.79588014">
           <folding />
         </state>
       </provider>

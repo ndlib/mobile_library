@@ -2,15 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\campus-map-org.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\campus-map.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\jquery.mobile-1.2.0.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\mobile.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\content.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\gps.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\header.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-18-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-18-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-36-black.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-36-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\taupe_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\title.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\index.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery.mobile-1.2.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\oninit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\noconnection.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-36-ldpi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-48-mdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-72-hdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-96-xhdpi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-48-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-50-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-80-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada\icon-128.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\blackberry\icon-80.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\webos\icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-173-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-48.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-62-tile.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada\screen-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\blackberry\screen-225.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\webos\screen-64.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\windows-phone\screen-portrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\helper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\splash.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage_iframe.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/bic.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/bic.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" afterPath="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +108,43 @@
       <file leaf-file-name="hesburgh.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-12.423077">
+            <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.26984128">
+            <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="1" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +153,7 @@
       <file leaf-file-name="bic.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="-13.0">
+            <state line="20" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -66,7 +162,7 @@
       <file leaf-file-name="engineering.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-13.0">
+            <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,7 +171,7 @@
       <file leaf-file-name="mathematics.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="-13.0">
+            <state line="20" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +180,7 @@
       <file leaf-file-name="chemistry.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-12.423077">
+            <state line="19" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +203,6 @@
         <option value="$PROJECT_DIR$/app/views/mobiledatabases/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mobile.css" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/locations/kkic.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
@@ -119,6 +214,7 @@
         <option value="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -154,16 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -315,182 +401,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobiledatabases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feedback" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="computers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asklib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile_library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -589,6 +499,20 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -597,11 +521,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -869,7 +793,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26055196" sideWeight="0.6701389" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26542208" sideWeight="0.6701389" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.49756494" order="7" side_tool="true" content_ui="tabs" />
@@ -940,21 +864,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/asklib_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="64" selection-start="1197" selection-end="1226" vertical-scroll-proportion="-27.461538" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/feedback/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/feedback_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -967,37 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="-13.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-13.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="-13.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
+        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.6153846" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/vrc.html.erb">
@@ -1007,35 +886,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/radlab.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="332" selection-end="332" vertical-scroll-proportion="0.21794872">
-          <folding />
-        </state>
+        <state line="10" column="59" selection-start="332" selection-end="332" vertical-scroll-proportion="0.21794872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/kkic.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="0.21794872">
-          <folding />
-        </state>
+        <state line="10" column="59" selection-start="357" selection-end="357" vertical-scroll-proportion="0.21794872" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/architecture.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="829" selection-end="829" vertical-scroll-proportion="0.4576923">
-          <folding />
-        </state>
+        <state line="21" column="10" selection-start="829" selection-end="829" vertical-scroll-proportion="0.4576923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/hesburgh.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="-12.423077">
+        <state line="19" column="0" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.26984128">
+        <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="1" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/bic.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/mathematics.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/chemistry.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -77,8 +77,6 @@
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\splash.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage_iframe.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="mobile.iws" />
@@ -135,7 +133,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="22" selection-start="783" selection-end="783" vertical-scroll-proportion="0.79588014">
+            <state line="40" column="31" selection-start="783" selection-end="796" vertical-scroll-proportion="0.79588014">
               <folding />
             </state>
           </provider>
@@ -986,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="22" selection-start="783" selection-end="783" vertical-scroll-proportion="0.79588014">
+        <state line="40" column="31" selection-start="783" selection-end="796" vertical-scroll-proportion="0.79588014">
           <folding />
         </state>
       </provider>

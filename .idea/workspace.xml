@@ -4,80 +4,19 @@
     <list default="true" id="2a7e39a3-4ca6-48c6-bfdd-8c90af065484" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\campus-map-org.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\app\assets\images\campus-map.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\index.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\jquery.mobile-1.2.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\css\mobile.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\events.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\gps.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\header.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\taupe_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\img\title.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\index.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\events.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\iframe.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery-1.8.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\jquery.mobile-1.2.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\js\oninit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\noconnection.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-36-ldpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-48-mdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-72-hdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\android\icon-96-xhdpi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-48-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-50-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada-wac\icon-80-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\bada\icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\blackberry\icon-80.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-57.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\ios\icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\webos\icon-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-173-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\icon\windows-phone\icon-62-tile.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-hdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-ldpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-mdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\android\screen-xhdpi-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada-wac\screen-type5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\bada\screen-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\blackberry\screen-225.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-ipad-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-landscape.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\ios\screen-iphone-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\webos\screen-64.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\res\screen\windows-phone\screen-portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\helper.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\index.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\MIT.LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\spec\lib\jasmine-1.2.0\jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\splash.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rmalott\mobile_library\public\www\subpage_iframe.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/icon.png" afterPath="$PROJECT_DIR$/public/www/icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/config.xml" afterPath="$PROJECT_DIR$/public/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/css/index.css" afterPath="$PROJECT_DIR$/public/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/index.html" afterPath="$PROJECT_DIR$/public/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/index.js" afterPath="$PROJECT_DIR$/public/www/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/js/oninit.js" afterPath="$PROJECT_DIR$/public/www/js/oninit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/noconnection.html" afterPath="$PROJECT_DIR$/public/www/noconnection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/subpage.html" afterPath="$PROJECT_DIR$/public/www/subpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/www/subpage_iframe.html" afterPath="$PROJECT_DIR$/public/www/subpage_iframe.html" />
     </list>
     <ignored path="mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,15 +51,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mobile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,7 +63,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="31" selection-start="783" selection-end="796" vertical-scroll-proportion="0.79588014">
+            <state line="40" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.79588014">
               <folding />
             </state>
           </provider>
@@ -169,7 +99,16 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.3846154">
+            <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,7 +152,6 @@
         <option value="$PROJECT_DIR$/app/views/locations/kkic.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/radlab.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/vrc.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mobile.js" />
         <option value="$PROJECT_DIR$/app/views/locations/architecture.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/mathematics.html.erb" />
@@ -221,6 +159,7 @@
         <option value="$PROJECT_DIR$/app/views/locations/engineering.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/chemistry.html.erb" />
         <option value="$PROJECT_DIR$/app/views/locations/hesburgh.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/locations/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -893,11 +832,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/feedback_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="940" column="17" selection-start="40305" selection-end="40307" vertical-scroll-proportion="0.0" />
@@ -968,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/engineering.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="806" selection-end="806" vertical-scroll-proportion="-11.846154">
@@ -982,9 +909,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="142" selection-start="434" selection-end="434" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="31" selection-start="783" selection-end="796" vertical-scroll-proportion="0.79588014">
+        <state line="40" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.79588014">
           <folding />
         </state>
       </provider>

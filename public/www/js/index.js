@@ -49,7 +49,12 @@ var app = {
         document.addEventListener('deviceready', this.deviceready, true);
     },
     deviceready: function() {
-        
+
+
+ 	if (checkConnection() === false){
+ 		window.location = "noconnection.html";
+ 	}
+	        
     	try {       
 		childBrowser = ChildBrowser.install();
 
@@ -57,13 +62,22 @@ var app = {
 		alert(err);
     	}
 
- 	if (checkConnection() === false){
- 		window.location = "noconnection.html";
- 	}
-	
 	//this is for iframe speaking to parent
 	window.addEventListener('message', onExtURL, false);
+
 	
+	var canProxy = false;
+	$.ajax({
+	    url:'http://proxy.library.nd.edu/login?url=library.nd.edu',
+	    type:'HEAD',
+	    timeout: 8000,
+	    error: function(x, t, m){
+		canProxy = false;
+	    },
+	    success: function(){
+		canProxy = true;
+	    }
+	});
 	
 	// This is an event handler function, which means the scope is the event.
 	// So, we must explicitly called `app.report()` instead of `this.report()`.
@@ -165,6 +179,7 @@ window.onExtURL = function (e) {
 	var u = $.mobile.path.parseUrl( e.origin );
 	
 	if (previousOpen != e.data){
+		//origin of where request came from should either be the library site or localhost
 		if((e.origin == 'http://localhost:3000') || (u.hostname.indexOf("library.nd.edu") > 0)){
 			openChildBrowser(e.data);
 			previousOpen = e.data;
@@ -273,8 +288,9 @@ function showSubpage( sourceURL, origURLObj, options ) {
 				//change relative paths to images to point to m. site
 				$page.find("img").prop("src", function(){
 					srcURL = $(this).attr('src');
-					alert("img: " + srcURL);
-					if (($.mobile.path.isRelativeUrl(srcURL)) && (srcURL.indexOf("assets") > 0)){
+					
+					if ($.mobile.path.isRelativeUrl(srcURL)){
+					//if (($.mobile.path.isRelativeUrl(srcURL)) && (srcURL.indexOf("assets") > 0)){
 						return remoteURL + srcURL;
 					}else{
 						return srcURL;
@@ -376,7 +392,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 				//load into an iframe
 				//and expand the width of the content container (parents)
 
-				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame();' style='width:250px; display:none;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
+				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame(this);' style='width:250px; height:0px; background-color: #304962;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
 
 				$page.page();
 
@@ -411,49 +427,54 @@ function showIFrame( sourceURL, origURLObj, options ) {
 //////////////////////////////////////////////////////////////
 // Called from onLoad of the iFrame
 // Various Markups and aesthetic changes
+// used only for Primo, eJournal and Xerxes
 //////////////////////////////////////////////////////////////
-function updateIFrame(){
+function updateIFrame(iF){
+	
+	//Get rid of Header on Xerxes
+	$(iF).contents().find('div#mobile').find('div#hd').css('display', 'none');
+	
+	//Get rid of Header on Ejournal Locator
+	$(iF).contents().find('div.header').css('display', 'none');
+	
+	//Get rid of Header on Primo
+	$(iF).contents().find('#exlidHeaderTile').css('display', 'none');
+	$(iF).contents().find('#exlidHeaderContainer').css('height', '100%');
 
-	var u = $.mobile.path.parseUrl(window.location.href);
-	
-	$('.iframeSource').contents().find('a').attr('href', function(i, val){
+	var iFu = $.mobile.path.parseUrl($(iF).attr('src'));
 
-				
-		if ($.mobile.path.isRelativeUrl(val) === true){
-			val = $.mobile.path.makeUrlAbsolute(val, $('.iframeSource').attr('src'));
-		}
 	
-		var u = $.mobile.path.parseUrl( val );
-	
-		if (isExtLink(u)){
-			return "javascript:window.top.postMessage('" + val + "', '*');";
+	$(iF).contents().find('a').attr('href', function(i, val){
+
+
+		//is not relative
+		if ($.mobile.path.isRelativeUrl(val) === false){
+			var u = $.mobile.path.parseUrl( val );
+			
+			
+			//if it's not on the same domain as current iframe's source, open externally
+			if (u.host != iFu.host){
+				return "javascript:window.top.postMessage('" + val + "', '*');";
+			}else{
+				return val;
+			}
+		
+		//is relative url
 		}else{
-			return val;
+		
+			return $.mobile.path.makeUrlAbsolute(val, $(iF).attr('src'));
+		
 		}
+		
 	
 	});	
 
-
-	
-	$('.iframeSource').contents().find('a').removeAttr('target');
-	
-	//Get rid of Header on Xerxes
-	$('.iframeSource').contents().find('div#mobile').find('div#hd').css('display', 'none');
-	
-	//Get rid of Header on Ejournal Locator
-	$('.iframeSource').contents().find('div.header').css('display', 'none');
-	
-	//Get rid of Header on Primo
-	$('.iframeSource').contents().find('#exlidHeaderTile').css('display', 'none');
-	$('.iframeSource').contents().find('#exlidHeaderContainer').css('height', '100%');
-	
 	
 	$.mobile.loading( 'hide' );
 
-	$('.iframeSource').css("height","100%");
-	$('.iframeSource').css("width","100%");
+	$(iF).css("height","100%");
+	$(iF).css("width","100%");
 
-	$('.iframeSource').css('display', 'block');
 	
 
 }
@@ -467,12 +488,13 @@ function updateIFrame(){
 //////////////////////////////////////////////////////////////
 //will return true under following conditions:
 //external to nd.edu host (does not contain nd.edu in domain)
-//contains the word proxy in it (meaning it gets proxied to a different website)
-
+//contains the word proxy or eresources in it (meaning it gets proxied to a different website)
+//catalog and findtext need to be opened external because of how they're proxied
 //is http or https (since there can be other protocols, like telephone://, file://)
+
 function isExtLink(parsedURL){
 
-	if (((parsedURL.href.indexOf("proxy") > 0) || (parsedURL.href.indexOf("eresources.library") > 0) || (parsedURL.host.indexOf("nd.edu") < 1)) && ((parsedURL.protocol == "http:") || (parsedURL.protocol == "https:"))){
+	if (((parsedURL.href.indexOf("proxy") > 0) || (parsedURL.href.indexOf("eresources.library") > 0) || (parsedURL.href.indexOf("catalog.library") > 0) || (parsedURL.href.indexOf("findtext.library") >= 0) || (parsedURL.host.indexOf("nd.edu") < 1)) && ((parsedURL.protocol == "http:") || (parsedURL.protocol == "https:")) ){
 		return true;
 	}else{
 		return false;
@@ -487,18 +509,29 @@ function isExtLink(parsedURL){
 function openChildBrowser(url){
 
     try {
-	//both of these should work... (but actually don't...)
-	window.plugins.childBrowser.showWebPage( url, {showLocationBar:true}, "Hesburgh Libraries");
-	//childBrowser.showWebPage(url);
+	
+	$.mobile.loading( 'show' );
+	
+	if ((canProxy === false) && ((url.indexOf("proxy") > 0) || (url.indexOf("eresources.library") > 0))){
+		
+		alert("To access the following resources you must be logged into the VPN or on campus.  Otherwise you may access through the Library's mobile site");
+		
+	}else{
+	
+		window.plugins.childBrowser.showWebPage( url, {showLocationBar:true}, "Hesburgh Libraries");
+	}
+
+	window.plugins.childBrowser.onLocationChange = function (url) {
+	    alert('childBrowser has loaded ' + url);
+	};
 	
 	$.mobile.loading( 'hide' );
+
     }catch (err){
 	alert("Childbrowser plugin is not working, a new window will open instead.  Error: " + err);
 	window.open(url);
     }
 }
-
-
 
 
 //////////////////////////////////////////////////////////////
@@ -540,7 +573,7 @@ $(document).bind('pageinit', function(e, data){
     
 		var maxWidth = $( window ).width() - 30 + "px";
 		$(".popupMap img").css( "max-width", maxWidth );   
-		alert($(".popupMap img").attr('src'));
+	
 	},    
         popupafteropen: function() {
         
@@ -558,7 +591,7 @@ $(document).bind('pageinit', function(e, data){
     
     
     $('.popupLink').on('click', function () {
-    	alert('popupclicked');
+
     	openPopupMap();
     	return false;
     	

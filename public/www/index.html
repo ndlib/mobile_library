@@ -34,6 +34,22 @@
 
         <script type="text/javascript" src="js/index.js"></script>
 
+		<script type="text/javascript" charset="utf-8">
+
+
+
+$.ajax({
+    url:'http://proxy.library.nd.edu/login?url=library.nd.edu',
+    type:'HEAD',
+    timeout: 8000,
+    error: function(x, t, m){
+        alert('error: ' + t);
+    },
+    success: function(){
+        alert('success');
+    }
+});
+		</script>
 
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hesburgh Libraries Mobile // University of Notre Dame</title>
@@ -73,7 +89,7 @@
 			<div class="ui-grid-c" style='padding-top:15px;'>
 
 			  <div class="ui-block-a icon">
-				<a href="http://ejlpprd.library.nd.edu/"><img alt="Ejournals-cs" class="icon" src="http://m.library.nd.edu/assets/icons/ejournals.png" /></a>
+				<a href="http://ejlpprd.library.nd.edu/"><img alt="Ejournals" class="icon" src="http://m.library.nd.edu/assets/icons/ejournals.png" /></a>
 				<br />
 				<a href="http://ejlpprd.library.nd.edu/" class="icon">e-Journals</a>
 			  </div>

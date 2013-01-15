@@ -18,6 +18,7 @@
  */
  
 var childBrowser; 
+var canProxy;
 var remoteURL='http://m.library.nd.edu/';
 var remoteURL='http://localhost:3000/';
  
@@ -64,20 +65,6 @@ var app = {
 
 	//this is for iframe speaking to parent
 	window.addEventListener('message', onExtURL, false);
-
-	
-	var canProxy = false;
-	$.ajax({
-	    url:'http://proxy.library.nd.edu/login?url=library.nd.edu',
-	    type:'HEAD',
-	    timeout: 8000,
-	    error: function(x, t, m){
-		canProxy = false;
-	    },
-	    success: function(){
-		canProxy = true;
-	    }
-	});
 	
 	// This is an event handler function, which means the scope is the event.
 	// So, we must explicitly called `app.report()` instead of `this.report()`.
@@ -181,6 +168,7 @@ window.onExtURL = function (e) {
 	if (previousOpen != e.data){
 		//origin of where request came from should either be the library site or localhost
 		if((e.origin == 'http://localhost:3000') || (u.hostname.indexOf("library.nd.edu") > 0)){
+			alert(e.data);
 			openChildBrowser(e.data);
 			previousOpen = e.data;
 		}else{
@@ -212,7 +200,61 @@ $('.EXLSearchForm').live('submit', function () {
 });
 
 
+//////////////////////////////////////////////////////////////
+// Test by hitting proxy if user has access to e-resources
+// 
+//////////////////////////////////////////////////////////////
 
+function testProxyAccess(){
+	$.ajax({
+	    url:'http://proxy.library.nd.edu/login?url=library.nd.edu',
+	    type:'HEAD',
+	    timeout: 4000,
+	    error: function(x, t, m){
+	    	//if switching from being able to proxy to not being able to proxy
+	    	if (canProxy !== false){
+	    		showVPNAlert();
+	    	}
+	    	
+		canProxy = false;
+		
+	    },
+	    success: function(){
+		canProxy = true;
+	    }
+	});
+	
+}
+
+
+
+//////////////////////////////////////////////////////////////
+// Alert when users are off campus they might not be able
+// access all resources
+//////////////////////////////////////////////////////////////
+
+function showVPNAlert() {
+	navigator.notification.alert(
+            'We have detected that you are connected from off-campus and not on a VPN.  If you choose to continue you may not be able to access all features of the catalog and electronic resources.',  // message
+            onDismiss,         // callback
+            'Hesburgh Libraries Alert',   // title
+            'Learn about ND VPN, Continue'              // buttonName
+        );
+}
+
+function onDismiss(buttonChosen) {
+
+    if (buttonChosen == "1"){
+    	//if ((device.platform == "iPhone") || (device.platform == "iOS")){
+    		openChildBrowser("http://oithelp.nd.edu/networking/vpn/ios/");
+    	//}else if (device.platform == "Android"){
+    	//	openChildBrowser("http://oithelp.nd.edu/networking/vpn/android/");
+    	//}else{
+    	//	openChildBrowser("http://oithelp.nd.edu/networking/vpn/");
+    	//}
+    }
+    
+}
 
 
 
@@ -351,11 +393,10 @@ function showSubpage( sourceURL, origURLObj, options ) {
 }
 
 
-
 //////////////////////////////////////////////////////////////
 // Called from Page Handler - used for displaying pages
 // internal to the library that can handle mobile displays
-// e.g. Primo, EJournal locator
+// e.g. Primo, EJournal locator, Xerxes
 //////////////////////////////////////////////////////////////
 function showIFrame( sourceURL, origURLObj, options ) {
         
@@ -392,7 +433,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 				//load into an iframe
 				//and expand the width of the content container (parents)
 
-				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame(this);' style='width:250px; height:0px; background-color: #304962;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
+				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame(this);' style='max-width:640px; width:250px; height:0px; background-color: #304962;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
 
 				$page.page();
 
@@ -429,53 +470,55 @@ function showIFrame( sourceURL, origURLObj, options ) {
 // Various Markups and aesthetic changes
 // used only for Primo, eJournal and Xerxes
 //////////////////////////////////////////////////////////////
-function updateIFrame(iF){
-	
-	//Get rid of Header on Xerxes
-	$(iF).contents().find('div#mobile').find('div#hd').css('display', 'none');
-	
-	//Get rid of Header on Ejournal Locator
-	$(iF).contents().find('div.header').css('display', 'none');
-	
-	//Get rid of Header on Primo
-	$(iF).contents().find('#exlidHeaderTile').css('display', 'none');
-	$(iF).contents().find('#exlidHeaderContainer').css('height', '100%');
+function updateIFrame(iFt){
 
+	iF = $.mobile.activePage.find('.iframeSource');
+
+	$(iF).css("height","1%");
+	
 	var iFu = $.mobile.path.parseUrl($(iF).attr('src'));
 
-	
+	//look at all links on page to update if needed	
 	$(iF).contents().find('a').attr('href', function(i, val){
 
 
-		//is not relative
+		//is not relative url
 		if ($.mobile.path.isRelativeUrl(val) === false){
-			var u = $.mobile.path.parseUrl( val );
-			
-			
-			//if it's not on the same domain as current iframe's source, open externally
-			if (u.host != iFu.host){
-				return "javascript:window.top.postMessage('" + val + "', '*');";
-			}else{
-				return val;
-			}
-		
-		//is relative url
-		}else{
-		
-			return $.mobile.path.makeUrlAbsolute(val, $(iF).attr('src'));
-		
+			val = $.mobile.path.makeUrlAbsolute(val, $(iF).attr('src'));
 		}
+		
+		
+		var u = $.mobile.path.parseUrl( val );
+
+		//if it's not on the same domain as current iframe's source, open externally
+		if ((u.host != iFu.host) || (isExtLink(u))){
+			//return "javascript:alert('external url: " + val + "');";
+			return "javascript:window.top.postMessage('" + val + "', '*');";
+		}else{
+			return val;
+		}
+		
 		
 	
 	});	
 
 	
+	//Get rid of Header on Xerxes
+	$(iF).contents().find('div.mobile').find('div#hd').css('display', 'none');
+
+	//Get rid of Header on Ejournal Locator
+	$(iF).contents().find('div.header').css('display', 'none');
+
+	//Get rid of Header on Primo
+	$(iF).contents().find('#exlidHeaderTile').css('display', 'none');
+	$(iF).contents().find('#exlidHeaderContainer').css('height', '100%');
+
+
 	$.mobile.loading( 'hide' );
 
 	$(iF).css("height","100%");
 	$(iF).css("width","100%");
 
-	
 
 }
 
@@ -514,16 +557,16 @@ function openChildBrowser(url){
 	
 	if ((canProxy === false) && ((url.indexOf("proxy") > 0) || (url.indexOf("eresources.library") > 0))){
 		
-		alert("To access the following resources you must be logged into the VPN or on campus.  Otherwise you may access through the Library's mobile site");
+		alert("Sorry, but to access this resource you must either be logged in to the VPN or on campus.  You may also use the mobile library.nd.edu site.");
 		
 	}else{
 	
 		window.plugins.childBrowser.showWebPage( url, {showLocationBar:true}, "Hesburgh Libraries");
 	}
 
-	window.plugins.childBrowser.onLocationChange = function (url) {
-	    alert('childBrowser has loaded ' + url);
-	};
+	//window.plugins.childBrowser.onLocationChange = function (url) {
+	//    alert('childBrowser has loaded ' + url);
+	//};
 	
 	$.mobile.loading( 'hide' );
 
@@ -550,10 +593,6 @@ function checkConnection() {
     }
 
 }
-
-
-
-
 
 
 

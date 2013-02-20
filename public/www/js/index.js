@@ -20,8 +20,7 @@
 var childBrowser; 
 var canProxy;
 var remoteURL='http://m.library.nd.edu/';
-var remoteURL='http://localhost:3000/';
- 
+var remoteURL='http://localhost:3000/'; 
 
 ////////////////////////////////////////////////////////////// 
 //On App init - happens once 
@@ -43,14 +42,21 @@ var app = {
   	$.mobile.loader.prototype.options.theme = "b";
   	$.mobile.loader.prototype.options.html = "<br /><h1>Loading...</h1><br />";
   	
-
+  	
+  	
+  	// Setting #container div as a jqm pageContainer
+	//$.mobile.pageContainer = $('#container');
+	 
+	// Setting default page transition to slide
+        $.mobile.defaultPageTransition = 'none';
+            
+            
         this.bind();
     },
     bind: function() {
         document.addEventListener('deviceready', this.deviceready, true);
     },
     deviceready: function() {
-
 
  	if (checkConnection() === false){
  		window.location = "noconnection.html";
@@ -84,8 +90,7 @@ var app = {
 // in PhoneGap
 //////////////////////////////////////////////////////////////
 
-$(document).bind('pagebeforechange', function(e, data){
-
+$(document).bind('pagebeforechange', function(e, data, XMLHttpRequest){
 
 	// We only want to handle changePage() calls where the caller is
 	// asking us to load a page by url for subpage
@@ -93,12 +98,14 @@ $(document).bind('pagebeforechange', function(e, data){
 	
 		$.mobile.loading( 'show' );
 	
+		testProxyAccess();
+	
 		var u = $.mobile.path.parseUrl( data.toPage )
 		var sourceURL = u.href;
 				
 		if ( u.hash ){
 			sourceURL = remoteURL + u.hash.replace(/#/g,"/");
-			showSubpage( sourceURL, u, data.options);
+			showIFrame( sourceURL, u, data.options);
 		
 		//file (this is how phonegap runs links as a file on local system)
 		}else if (u.protocol == "file:"){
@@ -168,7 +175,6 @@ window.onExtURL = function (e) {
 	if (previousOpen != e.data){
 		//origin of where request came from should either be the library site or localhost
 		if((e.origin == 'http://localhost:3000') || (u.hostname.indexOf("library.nd.edu") > 0)){
-			alert(e.data);
 			openChildBrowser(e.data);
 			previousOpen = e.data;
 		}else{
@@ -217,13 +223,27 @@ function testProxyAccess(){
 	    	}
 	    	
 		canProxy = false;
-		
 	    },
-	    success: function(){
-		canProxy = true;
+	    success: function(data, textStatus, XMLHttpRequest){
+	    
+	        //Apache response means it's at the webserver asking for password
+	        //otherwise the server response is ezproxy
+	    	if(XMLHttpRequest.getResponseHeader('server') !== 'Apache'){
+	    		canProxy = true;
+	    	}else{
+
+			//if switching from being able to proxy to not being able to proxy
+			if (canProxy !== false){
+				showVPNAlert();
+			}
+
+			canProxy = false;
+	    	
+	    	}
+	    	
 	    }
 	});
-	
+
 }
 
 
@@ -238,20 +258,22 @@ function showVPNAlert() {
             'We have detected that you are connected from off-campus and not on a VPN.  If you choose to continue you may not be able to access all features of the catalog and electronic resources.',  // message
             onDismiss,         // callback
             'Hesburgh Libraries Alert',   // title
-            'Learn about ND VPN, Continue'              // buttonName
+            'Continue'              // buttonName
         );
 }
 
 function onDismiss(buttonChosen) {
 
+
     if (buttonChosen == "1"){
-    	//if ((device.platform == "iPhone") || (device.platform == "iOS")){
-    		openChildBrowser("http://oithelp.nd.edu/networking/vpn/ios/");
-    	//}else if (device.platform == "Android"){
-    	//	openChildBrowser("http://oithelp.nd.edu/networking/vpn/android/");
-    	//}else{
-    	//	openChildBrowser("http://oithelp.nd.edu/networking/vpn/");
-    	//}
+    	if ((device.platform == "iPhone") || (device.platform == "iOS")){
+    		//doesnt work in iphone 
+    		//openChildBrowser("http://oithelp.nd.edu/networking/vpn/ios/");
+    	}else if (device.platform == "Android"){
+    		openChildBrowser("http://oithelp.nd.edu/networking/vpn/android/");
+    	}else{
+    		openChildBrowser("http://oithelp.nd.edu/networking/vpn/");
+    	}
     }
     
 }
@@ -413,7 +435,7 @@ function showIFrame( sourceURL, origURLObj, options ) {
 		
 			$.post( sourceURL, $("form").serialize(), function(rdata){
 
-				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame();' style='width:250px; display:none;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
+				$page.find('.subPageData').append( "<iframe class='iframeSource' onload='updateIFrame(this);' style='max-width:640px; width:250px; height:0px; background-color: #304962;' frameborder='0' src = '" + sourceURL + "'></iframe>" ).parents().css('padding', '0px', 'margin', '0px');
 
 				$page.page();
 				options.dataUrl = origURLObj.href;
@@ -478,24 +500,31 @@ function updateIFrame(iFt){
 	
 	var iFu = $.mobile.path.parseUrl($(iF).attr('src'));
 
+
 	//look at all links on page to update if needed	
-	$(iF).contents().find('a').attr('href', function(i, val){
+	$(iF).contents().find('a').each(function(i){
+		thisTarget = $(this).attr('target')
+		thisHref = $(this).attr('href')
 
-
+		if (thisTarget == '_parent'){
+			$(this).attr('target', '_self');	
+		}else if (thisTarget == 'popup'){
+			$(this).attr('target','_blank');
+			$(this).attr('onclick','');
+			$(this).attr('href', "javascript:window.top.postMessage('" + thisHref + "', '*');")
+		}
+		
 		//is not relative url
-		if ($.mobile.path.isRelativeUrl(val) === false){
-			val = $.mobile.path.makeUrlAbsolute(val, $(iF).attr('src'));
+		if ($.mobile.path.isRelativeUrl(thisHref) === true){
+			$(this).attr('href',$.mobile.path.makeUrlAbsolute(thisHref, $(iF).attr('src')));
 		}
 		
 		
-		var u = $.mobile.path.parseUrl( val );
+		var u = $.mobile.path.parseUrl( thisHref );
 
 		//if it's not on the same domain as current iframe's source, open externally
 		if ((u.host != iFu.host) || (isExtLink(u))){
-			//return "javascript:alert('external url: " + val + "');";
-			return "javascript:window.top.postMessage('" + val + "', '*');";
-		}else{
-			return val;
+			$(this).attr('href',"javascript:window.top.postMessage('" + thisHref + "', '*');");
 		}
 		
 		

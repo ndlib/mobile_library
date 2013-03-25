@@ -30,7 +30,15 @@
              return false;
           });
 
+
+         getServiceHours({ architecture_library: '#architecture_hours' });
+
+
      });
+
+
+
+
 
 
 

@@ -146,6 +146,26 @@ img.branch{
 }
 
 
+.hours h5 {
+    font-size: 1em;
+    margin-bottom:.1em;
+    text-align: left;
+}
+.hours dl{
+    margin-top:.1em;
+}
+
+.hours dd{
+    width:180px;
+}
+.hours dt{
+    width:140px;
+}
+
+.hours {
+    max-width:100%;
+}
+
 /* ThemeRoller generated (with modifications) */
 /* Swatches */
 

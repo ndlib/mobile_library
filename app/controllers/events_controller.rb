@@ -8,7 +8,7 @@ class EventsController < ApplicationController
 
     @items = []
 
-    eventsxml = open("http://www.library.nd.edu/events/feed/", "User-Agent" => "Ruby-OpenURI", "Referer" => "http://m.library.nd.edu/")
+    eventsxml = open("http://#{Rails.configuration.library_host}/events/feed/", "User-Agent" => "Ruby-OpenURI", "Referer" => "http://m.library.nd.edu/")
     doc = Nokogiri::XML(eventsxml)
 
     doc.xpath("//item").each do |item|

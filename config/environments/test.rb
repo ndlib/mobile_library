@@ -34,4 +34,6 @@ Mobile::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  config.library_host = "library.nd.edu"
 end

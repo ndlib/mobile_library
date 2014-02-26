@@ -16,7 +16,7 @@ Capistrano::Configuration.instance(:must_exist).load do
   ssh_options[:keys] = %w(/shared/jenkins/.ssh/id_dsa)
 
   # Git settings for Capistrano
-  default_run_options[:pty]     = true # needed for git password prompts
+  default_run_options[:pty]     = false # needed for git password prompts
 
   _cset :application_symlinks, []
   _cset :default_symlinks, [

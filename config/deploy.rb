@@ -44,14 +44,14 @@ task :pre_production do
   ssh_options[:paranoid] = false
 
   set :rails_env, 'pre_production'
-  set :deploy_to, "/shared/ruby_pprd/data/app_home/#{application}"
-  set :ruby_bin,  '/shared/ruby_pprd/ruby/bin'
+  set :deploy_to, "/home/app/mobile"
+  set :domain, "mobilepprd-vm.library.nd.edu"
   set :ruby,      File.join(ruby_bin, 'ruby')
   set :bundler,   File.join(ruby_bin, 'bundle')
   set :rake,      File.join(shared_path, 'vendor/bundle/ruby/1.8/bin/rake')
   set :user,      'rbpprd'
   set :domain,    'rpprd.library.nd.edu'
-  set :site_url,  'mpprd.library.nd.edu'
+  set :site_url,  'mobilepprd-vm.library.nd.edu'
 
 
   server "#{user}@#{domain}", :app, :web, :db, :primary => true

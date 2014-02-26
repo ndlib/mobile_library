@@ -46,9 +46,9 @@ task :pre_production do
   set :rails_env, 'pre_production'
   set :deploy_to, "/home/app/mobile"
   set :domain, "mobilepprd-vm.library.nd.edu"
-  set :ruby,      File.join(ruby_bin, 'ruby')
-  set :bundler,   File.join(ruby_bin, 'bundle')
-  set :rake,      File.join(shared_path, 'vendor/bundle/ruby/1.8/bin/rake')
+  # set :ruby,      File.join(ruby_bin, 'ruby')
+  # set :bundler,   File.join(ruby_bin, 'bundle')
+  # set :rake,      File.join(shared_path, 'vendor/bundle/ruby/1.8/bin/rake')
   set :user,      'rbpprd'
   set :domain,    'rpprd.library.nd.edu'
   set :site_url,  'mobilepprd-vm.library.nd.edu'

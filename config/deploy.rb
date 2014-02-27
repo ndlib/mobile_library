@@ -37,7 +37,7 @@ end
 desc "Setup for the production environment"
 task :production do
   # Customize production configuration
-  set :deploy_to, "/home/app/#{application}"
+  set :deploy_to, "/home/app/mobile"
   set :domain, "mobileprod-vm.library.nd.edu"
 end
 

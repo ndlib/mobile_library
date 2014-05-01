@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.3'
+gem 'rails', '~> 3.2.3'
 gem 'capistrano'
 
 # Bundle edge Rails instead:
@@ -37,7 +37,7 @@ gem 'jquery-rails'
 gem 'nokogiri'
 gem "dynamic_form", "~> 1.1.4"
 gem 'execjs'
-gem 'therubyracer', "~> 0.10.0"
+gem 'therubyracer', "~> 0.12.1"
 gem 'savon'
 gem 'httpi'
 

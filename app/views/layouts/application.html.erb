@@ -33,6 +33,7 @@ ga('create', 'UA-2118378-21', 'auto');
 
 $(document).on('pageshow', '[data-role=page], [data-role=dialog]', function (event, ui) {
     try {
+        ga('create', 'UA-2118378-21', 'auto');
         if ($.mobile.activePage.attr("data-url")) {
             ga('send', 'pageview', $.mobile.activePage.attr("data-url")); // remove quotes
         } else {

@@ -20,7 +20,19 @@ set :application_symlinks, [
 #  Environment settings
 #############################################################
 
-# Defaults are set in lib/hesburgh_infrastructure/capistrano/environments.rb
+set :repo_url, 'https://github.com/ndlib/mobile_library.git'
+# Set an environment variable to deploy from a branch other than master
+# branch=beta cap staging deploy
+set(:branch) {
+  name = ENV['branch'] ? ENV['branch'] : 'master'
+
+  if name == 'master'
+    set :git_shallow_clone, 1
+  end
+
+  puts "Deploying to branch #{name}"
+  name
+}
 
 set :scm, 'git'
 set :scm_command, '/usr/bin/git'

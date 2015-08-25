@@ -1,13 +1,37 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.3'
-gem 'capistrano', '3.3.5'
-gem 'capistrano-rails'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :application do
+  gem 'rails', '~> 3.2.3'
 
-gem 'json'
+  # Bundle edge Rails instead:
+  # gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+  gem 'json'
+
+  gem 'jquery-rails'
+  gem 'thor', '~> 0.14.6'
+
+  # To use ActiveModel has_secure_password
+  # gem 'bcrypt-ruby', '~> 3.0.0'
+
+  # To use Jbuilder templates for JSON
+  # gem 'jbuilder'
+
+  # Use unicorn as the app server
+  # gem 'unicorn'
+
+  # To use debugger
+  # gem 'ruby-debug'
+
+
+  gem 'nokogiri'
+  gem "dynamic_form", "~> 1.1.4"
+  gem 'execjs'
+  gem 'therubyracer', "~> 0.12.1"
+  gem 'savon'
+  gem 'httpi'
+end
 
 # in production environments by default.
 group :assets do
@@ -20,33 +44,14 @@ group :assets do
 
 end
 
-gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# To use debugger
-# gem 'ruby-debug'
-
-
-gem 'nokogiri'
-gem "dynamic_form", "~> 1.1.4"
-gem 'execjs'
-gem 'therubyracer', "~> 0.12.1"
-gem 'savon'
-gem 'httpi'
+gem 'capistrano', '3.3.5'
+gem 'capistrano-rails'
 
 gem 'newrelic_rpm'
 
 group :development, :test do
   # To use debugger
-  gem 'debugger'
+  # gem 'debugger'
   gem 'rspec-rails'
   gem 'rb-inotify', :require => false
   gem 'rb-fsevent', :require => false
@@ -71,5 +76,3 @@ end
 group :test do
   gem 'factory_girl_rails'
 end
-
-

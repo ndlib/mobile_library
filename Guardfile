@@ -1,13 +1,13 @@
 guard 'coffeescript', :input => 'app/assets/javascripts', :noop => true
 
-guard 'rails', :port => 3005 do
+guard 'rails', :port => 3022 do
   watch('Gemfile.lock')
   watch(%r{^(config|lib)/.*})
 end
 
 
 # guard 'rspec' do
-guard 'rspec', :cli => "-f doc --drb --drb-port 50002", :all_on_start => false, :all_after_pass => false do
+guard 'rspec', :cli => "-f doc --drb --drb-port 50022", :all_on_start => false, :all_after_pass => false do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
@@ -35,7 +35,7 @@ end
 #   watch(/(.*).txt/) {|m| `tail #{m[0]}` }
 # end
 
-guard 'spork', :aggressive_kill => false, :test_unit_port => 50001, :rspec_port => 50002, :cucumber_env => { 'RAILS_ENV' => 'test' }, :rspec_env => { 'RAILS_ENV' => 'test' } do
+guard 'spork', :aggressive_kill => false, :test_unit_port => 50021, :rspec_port => 50022, :cucumber_env => { 'RAILS_ENV' => 'test' }, :rspec_env => { 'RAILS_ENV' => 'test' } do
   watch('config/application.rb')
   watch('config/environment.rb')
   watch(%r{^config/environments/.+\.rb$})

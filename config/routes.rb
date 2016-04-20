@@ -3,7 +3,7 @@ Mobile::Application.routes.draw do
 
   root :to => "home#index"
 
-  resources :locations, :asklib, :computers, :events, :mobiledatabases
+  resources :locations, :asklib, :computers, :events, :mobiledatabases, :renalerts
 
 
   match 'feedback' => 'feedback#new', :as => 'feedback', :via => :get
